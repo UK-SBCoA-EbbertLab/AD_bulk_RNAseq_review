@@ -1,0 +1,1431 @@
+Study title	Study DOI	Date of publication	"Groups (control, MCI, AD, etc…)"	Brain region(s)	Reported sex of samples	Sample size per race/ethnicity	Sample size per group	Reported age for each group	Alzheimer's disease diagnosis criteria	Years of Alzheimer's diagnosis	RNA extraction kit	RNA enrichment and/or depletion	RNA Integrity Score (RIN)	Library preparation	Post-Mortem Interval (PMI)	Read length	Number of Reads per sample	Paired-end or single end reads	Sequencing platform	Aligner 	Reference genome	Quantification tool	Transcriptome annotation	Transcript discovery method	Differential expression tools	Covariates in differential expression analysis	Gene/Transcript filtering based on expression	Multiple testing correction	Differential expression thresholds	Number of differentially expressed genes reported in each comparison between groups	Study quality assessment	Table to include in meta-analysis	Other notes	Author
+Whole Transcriptome Sequencing Reveals Gene Expression and Splicing Differences in Brain Regions Affected by Alzheimer's Disease	10.1371/journal.pone.0016266	"January 21st, 2021"	Alzheimer's Disease vs Controls	"Total brain, frontal lobe, temporal lobe"	"Yes, both males and female included.
+No female AD cases."	Not reported	"Total brain male control = 13,
+Total brain female control = 10,
+Frontal lobe male control = 5,
+Temporal lobe male control = 5,
+Total brain male AD = 1,
+Frontal lobe male AD = 1,
+Temporal lobe male AD = 1"	"Total brain controls: range = 23-86, average = 68.3
+Frontal lobe controls: range = 22-29, average = 26.4
+Temporal lobe controls: range = 23-29, average = 26.0
+Total brain AD = 87
+Frontal lobe AD = 87
+Temporal lobe AD = 80"	Not reported	Not reported	Not reported	polyA enrichment	Not reported	"For the mRNA-Seq sample preparation, the Illumina standard kit was used according to the manufacturer's protocol.
+
+The fragmented mRNA was subjected to cDNA synthesis using reverse transcriptase (SuperScript II) and random primers. The cDNA was further converted into double stranded cDNA and, after an end repair process (Klenow fragment, T4 polynucleotide kinase and T4 polymerase), was finally ligated to Illumina paired end (PE) adaptors. Size selection was performed using a 2% agarose gel, generating cDNA libraries ranging in size from 200–250 bp. Finally, the libraries were enriched using 15 cycles of PCR and purified by the QIAquick PCR purification kit (Qiagen). The enriched libraries were diluted with Elution Buffer to a final concentration of 10 nM."	Not reported	36 base-pairs	"median number of reads per sample = 14,974,824"	single-end reads	Illumina Genome Analyzer (GAII)	TopHat version 1.0.12	GRCh37/HG19	Cufflinks version 0.8.0	ENSEMBL GTF Annotation Version 55	"De novo transcriptome assembly using Cufflinks
+followed by merging with known annotation 
+using Cuffcompare 0.8.0"	Cuffdiff version 0.8.0	Not reported	Not reported	Benjamini-Hochberg	Not reported	"Reported on the top 30 differentially expressed genes between Alzheimer's disease cases and controls
+for each brain region. Did not perform any sex specific analysis."	1.3	"Not suitable for meta-analysis. They do not provide full tables with p-values for all the genes included in the differential expression analysis, therefore this paper cannot be included in the meta-analysis."	"Also included a differential transcript expression analysis, 
+differential promoter usage analysis, 
+and gene ontology term enrichment analysis
+ for differentially expressed genes."	Twine et al.
+Integrative brain transcriptome analysis links complement component 4 and HSPA2 to the APOE epsilon 2 protective effect in Alzheimer disease	10.1038/s41380-021-01266-z	"September 3rd, 2021"	"For each data cohort (ROSMAP, MAYO, FHC/BUADC):
+
+Total AD vs Controls
+APOE e4/e3 AD vs APOE e4/e3 Controls
+APOE e3/e3 AD vs APOE e3/e3 Controls
+APOE e3/e2 AD vs APOE e3/e2 Controls"	Dorsolateral pre-frontal cortex.	"Both males and females included, 
+sex included as a covariate in the 
+differential expression model."	Not reported	"<cohort>: <AD>(percent female) - <Controls>(percent female)
+
+ROSMAP total: 380(66.8%) - 247(59.9%)
+ROSMAP e2/e2: 0(NA) - 5(60%)
+ROSMAP e2/e3: 38(81.6%) - 44(65.9%)
+ROSMAP e2/e4: 12(58.3%) - 4(50%)
+ROSMAP e3/e3: 212(65.6%) - 168(59.9%)
+ROSMAP e3/e4: 114(65.8%) - 25(56%)
+ROSMAP e4/e4: 4(50%) - 1(100%)
+
+MAYO total: 82(59.8%) - 80(48.8%)
+MAYO e2/e2: 0(NA) - 0(NA)
+MAYO e2/e3: 4(50%) - 12(41.7%)
+MAYO e2/e4: 0(NA) - 1(100%)
+MAYO e3/e3: 35(54.3%) - 58(48.3%)
+MAYO e3/e4: 36(63.9%) - 8 (50%)
+MAYO e4/e4: 7(71.4%) - 1(100%)
+
+FHS/BUADC total: 64(42.2%) - 129(50.4%)
+FHS/BUADC e2/e2: 1(100%) - 2(50%)
+FHS/BUADC e2/e3: 6 (66.7%) - 31(61..3%)
+FHS/BUADC e2/e4: 3(66.7%) - 8(62.5%)
+FHS/BUADC e3/e3: 33 (33.3%) - 76(43.4%)
+FHS/BUADC e3/e4: 19 (42.1%) - 12(58.3%)
+FHS/BUADC e4/e4: 2(50%) - 0(NA)"	"AD mean ± AD standart deviation - Control mean ± Control standard deviation:
+
+ROSMAP total: 90 ± 5.9 - 86.9 ± 7.3
+ROSMAP e2/e2: NA ± NA - 92.8 ± 4.5
+ROSMAP e2/e3: 92.7 ± 6.7 - 88.4 ± 8.5
+ROSMAP e2/e4: 89.9 ± 3.4 - 89.0 ± 5.8
+ROSMAP e3/e3: 90.2 ± 5.9 - 86.5 ± 6.9 
+ROSMAP e3/e4: 88.7 ± 5.6 - 85.7 ± 7.8 
+ROSMAP e4/e4: 89.9 ± 1.3 - 85.4
+
+MAYO total: 82.7 ± 7.6 - 82.6 ± 8.8
+MAYO e2/e2: NA ± NA - NA ± NA
+MAYO e2/e3: 85.8 ± 6.6 - 81.4 ± 10
+MAYO e2/e4: NA ± NA - 90
+MAYO e3/e3: 83.7 ± 8.0 - 82.4 ± 9.1
+MAYO e3/e4: 82.9 ± 6.8 - 84.1 ± 5.4
+MAYO e4/e4: 74.2 ± 6.0 - 86.0
+
+FHS/BUADC total: 88.6 ± 9.7 - 84.7 ± 10.2
+FHS/BUADC e2/e2: 68.0 - 77.5 ± 20.5
+FHS/BUADC e2/e3: 84.8 ± 18.5 - 82.0 ± 11.2
+FHS/BUADC e2/e4: 80.7 ± 4.2 - 76.0 ± 11.0
+FHS/BUADC e3/e3: 90.5 ± 8.0 - 87.2 ± 8.6
+FHS/BUADC e3/e4: 89.8 ± 6.4 - 82.8 ± 10.4
+FHS/BUADC e4/e4: 79.0 ± 18.3 - NA ± NA"	"Autopsy-confirmed AD.
+AD diagnosis was established according to the National Institute of Aging
+(NIA) Reagan criteria for intermediate or high probability of AD."	Not reported	"FHS/BUADC:
+
+Promega
+Maxwell RSC simplyRNA Tissue Kit (Cat No# AS1340) according to the
+manufacturer’s protocol."	PolyA enrichment	"mean ± standart deviation:
+
+ROSMAP total: 7.2 ± 1.0
+ROSMAP e2/e2: 6.2 ± 0.9
+ROSMAP e2/e3: 7.2 ± 1.2
+ROSMAP e2/e4: 6.9 ± 1.3
+ROSMAP e3/e3: 7.3 ± 1.0
+ROSMAP e3/e4: 7.2 ± 1.1
+ROSMAP e4/e4: 5.9
+
+MAYO total: 7.6 ± 1.0
+MAYO e2/e2: NA
+MAYO e2/e3: 7.7 ± 1.0
+MAYO e2/e4: 6.7
+MAYO e3/e3: 7.6 ± 1.1
+MAYO e3/e4: 7.6 ± 1.0
+MAYO e4/e4: 5.9
+
+FHS/BUADC total: 6.6 ± 1.3
+FHS/BUADC e2/e2: 7.3 ± 1.1
+FHS/BUADC e2/e3: 6.1 ± 1.4
+FHS/BUADC e2/e4: 6.2 ± 1.1
+FHS/BUADC e3/e3: 6.8 ± 1.3
+FHS/BUADC e3/e4: 7.0 ± 1.2
+FHS/BUADC e4/e4: NA"	"FHS/BUADC:
+
+NEBNext Poly(A) mRNA Magnetic Isolation Module and NEBNext Ultra II Directional RNA Library Preparation Kit for Illumina (New England Biolabs, USA)"	"mean ± standart deviation:
+
+ROSMAP total: 7.0 ± 4.2
+ROSMAP e2/e2: 6.4 ± 2.4
+ROSMAP e2/e3: 6.2 ± 3.8
+ROSMAP e2/e4: 6.5 ± 5.5
+ROSMAP e3/e3: 7.2 ± 4.3
+ROSMAP e3/e4: 7.3 ± 5.0
+ROSMAP e4/e4: 5.8
+
+MAYO total: Not reported
+MAYO e2/e2: Not reported
+MAYO e2/e3: Not reported
+MAYO e2/e4: Not reported 
+MAYO e3/e3: Not reported
+MAYO e3/e4: Not reported
+MAYO e4/e4: Not reported
+
+FHS/BUADC total: Not reported
+FHS/BUADC e2/e2: Not reported
+FHS/BUADC e2/e3: Not reported
+FHS/BUADC e2/e4: Not reported
+FHS/BUADC e3/e3:  Not reported
+FHS/BUADC e3/e4: Not reported
+FHS/BUADC e4/e4: Not reported"	Not reported	Not reported	paired-end reads	"Illumina NextSeq 500 instrument (Illumina, USA) "	STAR version  2.6.1c	GRCh38/hg38	RSEM version 1.3.1 & Bowtie2 version 2.3.4.1	ENSEMBL GTF Annotation Version 95	No transcript discovery	LIMMA (version not reported)	"Age of death, sex, and RNA Integrity Score (RIN) for all analysis. 
+
+FHS/BUADC included batch number as covariate.
+
+ROSMAP included batch number, educational level, and post-mortem interval (PMI) as covariate."	"Genes with no reads FPKM or gene counts in MAYO and ROSMAP datasets were excluded; 
+
+Genes with total FPKM reads < 5 in the FHS/BUADC dataset were excluded.
+
+Only genes present in all three datasets were included in meta-analysis"	None	"Significance thresholds were set according to the number of genes tested in each APOE genotype group and in the total sample: ?2/?3 (p=2.35 × 10?6), ?3/?3 (p=1.96 × 10?6), ?3/?4 (p=2.42 × 10?6), and total (p=1.82 × 10?6).
+"	"Meta-analysis of 3 datasets together reported 1,114 differentially expressed genes."	1.8	"Not suitable for meta-analysis. They provide a table with p-values and z-scores for the 
+genes that were significantly differentially expressed in the
+meta-analysis including all three datasets. This cannot be 
+used for meta-analysis since it does not provide all genes
+and combines results from the original data (FHS/BUADC) with 
+the re-analyzed data that is present in other studies (MAYO + ROSMAP)"	"Results across datasets and APOE genotype groups within datasets were combined
+by a sample size-weighted meta-analysis with log2 of fold change (logFC) as
+direction using the software METAL.
+
+MAYO and ROSMAP data were reanalyzed in this study, whereas FHS/BUADC data is original to
+this study. They have a unique angle of analyzing total AD vs controls and also AD vs controls segregated by APOE genotype. APOE genotypes e2/e2 and e4/e4 were excluded from APOE genotype specific analysis due to low sample size, however, all genotypes were included in ""total"" analysis between AD cases and controls"	Panich et al.
+RNA-Seq analysis of the parietal cortex in Alzheimer's disease reveals  alternatively spliced isoforms related to lipid metabolism.	10.1016/j.neulet.2012.12.042	"March 1st, 2013"	"AD = 1 pooled sample from 5 males
+Control = 1  pooled sample from 5 males"	Parietal Lobe	"Yes, only males included"	Not reported	"AD = 1 pooled sample from 5 males
+Control = 1 pooled sample from 5 males"	"AD = 73–87
+Control =  65-84"	Not reported	Not reported	Not reported	Not reported	Not reported	"For the mRNA-Seq sample preparation, the Illumina standard kit was used, according to the manufacturer's protocol (Illumina, San Diego, CA). "	Not reported	36 base-pairs	"36,775,038 reads for AD pooled sample
+37,966,397 reads for Control pooled sample"	single-end reads	Illumina Genome Analyzer (GAII)	TopHat version not reported	GRCh37/HG19	Cufflinks (version not reported)	ENSEMBL GTF Annotation version 55	"De novo transcriptome assembly using Cufflinks
+followed by merging with known annotation 
+using Cuffcompare (version not reported)"	Cuffdiff (version not reported)	Not reported	Not Reported	Benjamini-Hochberg	|fold change| > 2 and q-value < 0.05	Not reported. Only reported total number of differentially expressed RNA isoforms.	1.5	"Not suitable for meta-analysis. Only provide table containing p-value and log2 fold change
+values for genes/transcripts with q-value < 0.05"	"Included differential expression analysis at gene, RNA isoform, and alternative promoter levels. Also included downstream pathway Gene-set enrichment analysis and RT-qPCR validations."	Mills et al.
+"
+Neuropathological and transcriptomic characteristics of the aged brain"	10.7554/eLife.31126	"November 9th, 2017"	Demented vs Non-demented	"Temporal cortex, Parietal cortex, Parietal white matter, hippocampus"	"Yes, males and females included"	"Yes,  2 non-white subjects. 
+Remaining subjects are white."	"Total of 377 samples from 107 donors
+
+One donor was excluded due to being reported as female but having unexpectedly high Y chromosome gene expression.
+
+Non-demented = 56 donors (20 females,
+36 males).
+
+Demented = 50 donors (23 females, 27 males)"	"Mean ±  standard deviation
+
+Non-demented: 89 ± 7
+Demented: 90 ± 6"	"Dementia definition:
+ACT dementia diagnosis = Dementia
+DSM IV diagnosis = Alzheimer's disease or vasular dementia or mixed dementia or other/unknown Cause.
+NINCDS ADRDA diagnosis = Possible or probable or  unknown dementia type.
+
+Non-dementia definition:
+ACT dementia diagnosis = None
+DSM IV diagnosis = None
+NINCDS ADRDA diagnosis = None"	Not reported	RNeasy Lipid Tissue Mini Kit (Qiagen #78404)	rRNA-depleted	"Mean ±  standard deviation
+
+Non-demented: 6.87 ± 0.92
+Demented: 6.18 ± 1.27"	"Illumina TruSeq Stranded Total
+ RNA Sample Prep Kit
+(RS-122–2203)"	PMI < 8 hours	50bp	"A minimum of 30 million paired-end
+clusters per sample"	paired-end	Illumina HighSeq 2500 using v4 chemistry	Bowtie (version not reported)	HG38	RSEM (version not reported)	GRCh38.p2	"No discovery, quantification based on 
+reference GTF file and reference genome"	"Combination of multiple approaches including two tailed student t-tests, ANOVA, and limma.
+
+
+"	RNA Integrity Score (RIN)	Not Reported	"Benjamini-Hochberg or
+Bonferroni"	Bonferroni-corrected p-value < 0.05 unless otherwhise specified.	"Did not find any genes with significant differential expression between control and dementia (or AD) cases in any brain region (SVA, p<0.05, Bonferroni corrected).
+Performed several sensitivity analyses that reinforced our conclusion that methodological details were not driving this result"	2.1	"Suitable for meta-analysis. Provides table with all necessary information for 
+performing meta-analysis for each individual brain region"	"Very thorough study with great demographic data, as well as pathological characterisation. Includes 4 brain regions and also performs a Luminex assay. Performed WGCNA analysis."	Miller et al.
+Differential transcript usage unravels gene expression alterations in Alzheimer’s disease human brains	10.1038/s41514-020-00052-5	"January 4th, 2021"	AD vs Control	Frontal lobe and Temporal Lobe	"Yes, male and females included"	Not reported	"Mayo Temporal Lobe (Mayo TL)
+AD Female: 49  | AD Male: 33 
+Control Female: 37 | Control Male: 41 
+
+ Mount Sinai Brodmann Area 10 (MSBB-BM10)
+AD Female: 86 |  AD Male: 53
+Control Female: 52 | Control Male: 42
+
+ Mount Sinai Brodmann Area 22 (MSBB-BM22)
+AD Female: 88 | AD Male: 64
+Control Female: 45 | Control Male: 41
+
+ Mount Sinai Brodmann Area 36 (MSBB-BM36)
+AD Female: 95 | AD Male: 53
+Control Male: 44 | Control Female: 40
+
+ Mount Sinai Brodmann Area 44 (MSBB-BM10)
+AD Female: 84  | AD Male: 51
+Control Female: 45 | Control Male: 47
+
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC)
+AD Female: 147 | AD Male: 64 
+Control Female: 118 | Control Male: 74"	"mean ±  standard deviation 
+
+Mayo Temporal Lobe (Mayo TL)
+AD Female: 83.33 ± 7.23  | AD Male: 81.67 ± 8.16 
+Control Female: 84.81 ± 8.04 | Control Male: 80.27 ± 9.13 
+
+ Mount Sinai Brodmann Area 10 (MSBB-BM10)
+AD Female: 85.94 ± 6 |  AD Male: 79.26 ± 7.67
+Control Female: 83.04 ± 7.43 | Control Male: 78.93 ± 8.56
+
+ Mount Sinai Brodmann Area 22 (MSBB-BM22)
+AD Female: 85.81 ± 5.95 | AD Male: 79.44 ± 7.67
+Control Female: 82.09 ± 8.1 | Control Male: 79.29 ± 8.66
+
+ Mount Sinai Brodmann Area 36 (MSBB-BM36)
+AD Female: 86.79 ± 5.2 | AD Male: 79.26 ± 7.98
+Control Male: 83.45 ± 7.23 | Control Female: 78.28 ± 8.79
+
+ Mount Sinai Brodmann Area 44 (MSBB-BM10)
+AD Female: 85.62 ± 6.02 | AD Male: 79.69 ± 7.59
+Control Female: 81.82 ± 9.06 | Control Male: 78.13 ± 8.16
+
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC)
+AD Female: 88.55 ± 3.05 | AD Male: 87.6 ± 3.18 
+Control Female: 85.66 ± 4.83 | Control Male: 83.69 ± 5.69"	"Metadata obtained from each study was used to classify patients into Control and Alzheimer’s disease groups. For the MSBB dataset, we used patients with Neuropathology Category (NP.1) labeled as “Control” and “definitive Alzheimer”. For the Mayo dataset, we used the “Diagnosis” column of the metadata, selecting only “AD” and “Control” patients. For the ROSMAP dataset, we also used the column “Diagnosis” of the metadata, selecting only “Control” (value = 1) and “Alzheimer with no other conditions” (value = 4). In all those datasets, subjects marked as “AD” showed Braak stage values higher than 4. In the MSBB dataset, CDR scores of AD patients were consistently higher than 2. In the Mayo and ROSMAP datasets, all AD patients had also a definitive diagnosis according to NINCDS criteria."	Not Reported	"
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 1: 
+Samples were extracted using Qiagen's miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254)
+
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 2: 
+Samples were extracted using Qiagen's miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254)
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 3: 
+Samples were extracted using Qiagen's miRNeasy mini kit (cat. no. 217004) and the RNase free DNase Set (cat. no. 79254)
+
+All Mount Sinai Samples (MSBB):
+RNeasy Lipid Tissue Mini Kit from Qiagen (cat#74804)
+
+Mayo Temporal Lobe (Mayo TL):
+Trizol® reagent and cleaned using Qiagen RNeasy columns with DNase treatment
+"	"
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 1: 
+Poly-A enrichment
+
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 2: 
+rRNA depletion
+
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 3:
+rRNA depletion
+
+
+
+All Mount Sinai Samples (MSBB):
+rRNA depletion
+
+
+Mayo Temporal Lobe (Mayo TL):
+Poly-A enrichment
+"	"mean ±  standard deviation 
+
+Mayo Temporal Lobe (Mayo TL)
+AD Female: 8.58  ± 0.58 | AD Male: 8.59 ± 0.5 
+Control Female: 7.59 ± 1 | Control Male: 7.64 ± 1.05 
+
+ Mount Sinai Brodmann Area 10 (MSBB-BM10)
+AD Female: 6.05 ± 1.64 |  AD Male: 6.19 ± 1.42
+Control Female: 6.37 ± 1.28 | Control Male: 6.73 ± 1.14
+
+ Mount Sinai Brodmann Area 22 (MSBB-BM22)
+AD Female: 6.00 ± 1.5 | AD Male: 5.53 ± 1.28
+Control Female: 6.00 ± 1.23 | Control Male: 5.72 ± 1.06
+
+ Mount Sinai Brodmann Area 36 (MSBB-BM36)
+AD Female: 5.59 ± 1.71 | AD Male: 5.69 ± 1.61
+Control Male: 6.15 ± 1.32 | Control Female: 6.2 ± 1.2
+
+ Mount Sinai Brodmann Area 44 (MSBB-BM10)
+AD Female: 6.9 ± 2.51 | AD Male: 6.57 ± 2.41
+Control Female: 7.43 ± 2.15 | Control Male: 7.35 ± 2.14
+
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC)
+AD Female: 6.97 ± 0.88 | AD Male: 7 ± 1.09 
+Control Female: 7.31 ± 0.99 | Control Male: 7.19 ± 1.08"	"
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 1: 
+strand specific dUTP method [REF1 - Levin et al., Nature Methods 2010] with poly-A selection [REF2 - Adiconis et al., Nature Methods 2013].
+
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 2: 
+ KAPA Stranded RNA-Seq Kit with RiboErase (kapabiosystems) 
+
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 3:
+ TruSeq stranded sequencing libraries (Illumina, 20020599)
+
+
+
+All Mount Sinai Samples (MSBB):
+TruSeq RNA Sample Preparation Kit v2 
+
+
+Mayo Temporal Lobe (Mayo TL):
+The TruSeq RNA Sample Prep Kit 
+"	"mean ±  standard deviation 
+
+Mayo Temporal Lobe (Mayo TL)
+AD Female: 6.34  ± 5.8 | AD Male: 8.6 ± 5.83 
+Control Female: 7 ± 7.69 | Control Male: 5.51 ± 6.42 
+
+ Mount Sinai Brodmann Area 10 (MSBB-BM10)
+AD Female: 6.01 ± 3.97 |  AD Male: 7.38 ± 4.73
+Control Female: 8.69 ± 5.73 | Control Male: 11.31 ± 7.47
+
+ Mount Sinai Brodmann Area 22 (MSBB-BM22)
+AD Female: 5.34 ± 3.71 | AD Male: 7.2 ± 4.8
+Control Female: 9.18 ± 6.18 | Control Male: 11.01 ± 7.29
+
+ Mount Sinai Brodmann Area 36 (MSBB-BM36)
+AD Female: 5.96 ± 4.14 | AD Male: 6.65 ± 4.9
+Control Male: 8.3 ± 5.66 | Control Female: 12.47 ± 7.92
+
+ Mount Sinai Brodmann Area 44 (MSBB-BM10)
+AD Female: 5.74 ± 3.82 | AD Male: 7.19 ± 4.58
+Control Female: 8.19 ± 5.74 | Control Male: 11.48 ± 7.3
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC)
+AD Female: 7.25 ± 4.51 | AD Male: 6.58 ± 4.24 
+Control Female: 7.25 ± 5.18 | Control Male: 7.34 ± 4.05"	"
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 1: 
+101 base-pairs
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 2: 
+100 base-pairs
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 3:
+150 base-pairs
+
+All Mount Sinai Samples (MSBB):
+100 base-pairs
+
+Mayo Temporal Lobe (Mayo TL):
+101 base-pairs
+"	"
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 1: 
+~50 Million
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 2: 
+~30 Million
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 3:
+~40-50 Million
+
+All Mount Sinai Samples (MSBB):
+Not Reported
+
+Mayo Temporal Lobe (Mayo TL):
+Not Reported
+"	"
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 1: 
+paired-end
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 2: 
+paired-end
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 3:
+paired-end
+
+All Mount Sinai Samples (MSBB):
+single-end
+
+Mayo Temporal Lobe (Mayo TL):
+paired-end
+"	"
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 1: 
+Illumina HiSeq
+
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 2: 
+NovaSeq6000
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC) Batch 3:
+NovaSeq6000
+
+All Mount Sinai Samples (MSBB):
+Illumina HiSeq 2500
+
+
+Mayo Temporal Lobe (Mayo TL):
+ Illumina HiSeq 2000
+"	Kallisto version 0.43.1	None (Transcriptome Alignment)	Kallisto version 0.43.1	GRCh38 cDNA release 94	"No discovery, quantification based on 
+reference GTF file and reference genome"	DESeq2 (version not reported)	RIN and PMI	Filtered out genes with less than 10 total counts.	Benjamini-Hochberg	q-value (FDR corrected p-value)?<?0.01 and |fold change| (FC)?>?1.3	"Mayo Temporal Lobe (Mayo TL):
+Genes Upregulated in AD:  2104 
+Genes Downregulated  in AD: 1244  
+
+ Mount Sinai Temporal Lobe (MSBB-BM22 + MSBB-BM36)
+Genes Upregulated in AD: 999
+Genes Downregulated  in AD: 1170  
+
+Overlap between Mount Sinai Temporal Lobe and Mayo Temporal Lobe:
+Genes Upregulated in AD: 520   
+Genes Downregulated  in AD: 145 
+
+ Mount Sinai Frontal Lobe (MSBB-BM10 + MSBB-BM44)
+Genes Upregulated in AD: 214 
+Genes Downregulated  in AD: 113 
+
+ROSMAP Dorsolateral Pre-frontal Cortex (ROSMAP-DLPFC)
+Genes Upregulated in AD: 112
+Genes Downregulated  in AD: 97 
+
+Overlap between  Mount Sinai Frontal Lobe and ROSMAP-DLPFC:
+Genes Upregulated in AD: 13 
+Genes Downregulated  in AD: 18"	2.3	"Not suitable for meta-analysis, provides a table with p-value and log fold change only for DEGs and DUTs."	"Really thorough study combining multiple different data sources. Includes gene level and transcript level analysis across hundreds of samples and multiple brain regions. 
+Also includes downstream analysis integrating single cell data and WGCNA."	Marques-Coelho et al.
+Integrative Transcriptomic Analyses of Hippocampal–Entorhinal System Subfields Identify Key Regulators in Alzheimer's Disease	10.1002/advs.202300876	"May 26th, 2023"	AD vs Normal Control	"Hippocampus CA1
+Hippocampus CA2
+Hippocampus CA3
+Hippocampus CA4
+Entorhinal Cortex"	"Yes, males and females included"	Chinese individuals	"AD Female: 16 | AD Male: 15
+Control Female: 8 | Control Male: 14"	"mean ±  standard deviation 
+
+AD Female: 86.81 ± 4.39 | AD Male: 89.73 ± 6.12
+Control Female: 85 ± 10.94 | Control Male: 78.93 ± 9.55"	"22 control individuals with no pathology and 31 age?matched 
+individuals with AD pathology. The “ABC” score defined by the National Institute on Aging and 
+Alzheimer's Association guidelines was used for the AD pathology assessment of each sample."	Not reported	"RNeasy Mini Kit (74106, Qiagen)"	rRNA-depleted	"mean ±  standard deviation 
+
+CA1
+AD Female: 4.4  ± 1.59 |  AD Male: 4.25 ± 1.45
+Control Female: 5.67 ± 0.86 | Control Male: 5.44 ± 1.33
+
+CA2
+AD Female: 4.49 ± 1.57 | AD Male: 4.49 ± 1.54 
+Control Female: 5.78 ± 0.84 | Control Male: 5.64 ± 1.33 
+
+CA3
+AD Female: 4.01 ± 1.36 | AD Male: 4.4 ± 1.6
+Control Female: 5.68 ± 0.59 | Control Male: 5.56 ± 1.25
+
+CA4
+AD Female: 3.89 ± 1.4 | AD Male: 4.06 ± 1.57
+Control Female: 5.5 ± 0.65 | Control Male: 5.22 ± 1.14
+
+EC
+AD Female: 4.06 ± 1.57 | AD Male: 4.24 ± 1.26
+Control Female: 5.75 ± 0.74 | Control Male: 5.46 ± 1.39"	"VAHTS Total RNA?Seq Library PrepKit for 
+Illumina (NR603?02, Vazyme)"	"mean ±  standard deviation 
+
+AD Female: 12.19 ± 21.42 | AD Male: 12.91 ± 12.51
+Control Female: 17.98  ± 7.96 | Control Male: 23.46 ± 16.37"	Not reported	Not reported	Not reported	"Illumina, but specifc sequencing
+instrument is not reported"	Bowtie2 version 2.1.0	GRCH38	RSEM version 1.2.15	ENSEMBL release 79	"No discovery, quantification based on 
+reference GTF file and reference genome"	DESeq2 (version not reported)	"Quantile Normalization + 
+Surrogate variable analysis was used to calculate hidden covariates and removed
+ their effects on gene expression by linearizing them along with the effects of Age, DRI, and RIN, and obtaining the residuals"	The genes with missing values and with an expression value of 0 in all samples were removed.	"Reports adjusted p-value, but
+does not specify method. 
+Here we assume 
+Benjamini-Hochberg
+since it is the default method
+for DESeq2"	|log2 fold?change| > 0.58 and adjusted-p < 0.05	"CA1: 757 Differentially expressed genes between individuals with AD pathology and healthy controls
+
+CA2: 1,228 Differentially expressed genes between individuals with AD pathology and healthy controls
+
+CA3: 1,006 Differentially expressed genes between individuals with AD pathology and healthy controls
+
+CA4: 1,525  Differentially expressed genes between individuals with AD pathology and healthy controls
+
+EC: 1,609 Differentially expressed genes between individuals with AD pathology and healthy controls"	1.7	"Not suitable for meta-analysis. Only provide table containing p-value and log2 fold change
+values for genes that met the differential expression 
+criteria"	"This study has a very thorough data analysis, including cell-type deconvolution, use of surrogate variable analysis to control for batch effects and
+network analysis with WGCNA. It is also one of the few studies perforemed in a non-white (Chinese) population. Includes 5 different brain regions that are all
+critical to Alzheimer's disease (Hippocampus CA1 - CA4 and entorhinal cortex."	Luo et al.
+Proteomic and Transcriptomic Analyses Reveal Pathological Changes in the  Entorhinal Cortex Region that Correlate Well with Dysregulation of Ion Transport in Patients with Alzheimer's Disease.	10.1007/s12035-021-02356-3	"April 27th, 2021"	Alzheimer's disease vs non Alzheimer's disease without neurodegenerative disease	Entorhinal Cortex	"Yes, males and females included"	Chinese individuals	"AD Female: 4 | AD Male: 3
+Control Female: 7 | Control Male: 11"	"mean ±  standard deviation 
+
+AD Female: 88.00± 3.56 | AD Male: 96.67 ± 5.51
+Control Female: 86.14 ± 10.74 | Control Male: 81.45 ± 8.97"	"18 control individuals with no pathology and 7 non-AD donors without neurodegenerative disease
+The “ABC” score defined by the National Institute on Aging and 
+Alzheimer's Association guidelines was used for the AD pathology assessment of each sample."	Not reported	"Initial RNA extraction kit not reported. 
+Extracted RNA was further purified with
+RNAClean XP Kits (Cat A63987, Beckman Coulter, Inc. Kraemer Boulevard Brea, CA, USA) and RNase-Free DNase Sets (Cat#79254, Qiagen, GmBH, Germany)"	rRNA-depleted	RIN > 7.0	"VAHTS Total RNA-Seq (H/M/R) Library Prep Kits for Illumina (Vazyme, NR603-02), Agencourt ® AMPure XP Beads (Beckman, A63881), SuperScript II Reverse Transcriptase (Invitrogen,18064014), Qubit™ dsDNA HS Assay Kits (Invitrogen, Q32854), Agilent High Sensitivity DNA Kits (Agilent, 5067-4626)"	Not reported	Not reported	An average of 140 million reads per sample.	paired-end	"Illumina, but specifc sequencing
+instrument is not reported"	Hisat2 version 2.0.4	GRCH38	StringTie version 1.3.0	Not reported	Not reported	edgeR	Not reported	Not reported	Benjamini-Hochberg	|fold change| (FC) ?2.0 and a corrected P ? 0.05	534 significant DEGs (107 upregulated and 427 downregulated) in AD group compared to the control group	1.6	Not suitable for meta-analysis.	"This study combined transcriptomics and proteomics data and found 51 genes that were differentially expressed between AD and controls at both the RNA and protein levels and agreed in direction.
+Study was done in Chinese individuals.
+Functional analysis was done for 51 genes that were differentially expressed in RNA and protein levels.
+Immunohistochemistry was performed in a subset of differentiall expressed genes to validate findings. Immunohistochemistry expression levels were correlated with level of AD pathology.
+Mentions having performed Differential Transcript Expression, but does not report on results."	Jia et al.
+"""Protein aggregates"" contain RNA and DNA, entrapped by misfolded proteins but largely rescued by slowing translational elongation"	10.1111/acel.13326	"March 31st, 2021"	Sarkosyl?insoluble aggregates from Alzheimer's disease patient hippocampus vs  Sarkosyl?insoluble aggregates from age-matched control hippocampus	Hippocampus	Not reported	Not reported	"AD: 3 | Control: 3
+
+Pooled aggregate preparations from 3 AD individuals were compared with pooled aggregate preparations from 3 Controls."	Not reported	Not reported	Not reported	Qiagen AllPrep DNA/RNA extraction kit	Not reported	Not reported	Not reported	Not reported	Not reported	Not reported	Not reported	Not reported	"Data were analyzed with CLC
+ Genomics Workbench, 
+nothing else specified"	Not reported	"Data were analyzed with CLC
+ Genomics Workbench, 
+nothing else specified"	Not reported	"Data were analyzed with CLC
+ Genomics Workbench, 
+nothing else specified"	2?tailed Fisher exact tests	Not reported	Not reported	None	Uncorrected/Raw p-value < 0.001	39 significant DEGs (30 upregulated and 9 downregulated) in AD group compared to the control group	1.2	Not suitable for meta-analysis.	"Interesting study design looking at RNA molecules that are present within protein aggregates in Alzheimer's disease vs aged matched controls. Only found RNA for a handful of genes within these aggregates, but many 
+were differentially expressed between the groups. Complemented the differential expression analysis with pathway enrichment analysis at the RNA level. Also performed epigenetic analysis with CHIP-seq on DNA
+from the same exact samples. The written methods for RNAseq analysis left a lot to desire, many key pieces of information were missing."	Reis et al.
+Hippocampal transcriptome profiling combined with protein-protein interaction  analysis elucidates Alzheimer's disease pathways and genes.	10.1016/j.neurobiolaging.2018.10.023	"February, 2019"	AD vs Controls	Hippocampus (dentate gyrus and cornu amonis)	"Controls - 50% male
+AD - 30% male
+AD after removing outliers - 44%"	Not reported	"Alzheimer's disease (AD) cases: 18
+Controls: 10
+
+AD male = 8 | AD female = 10
+Control male = 5 | Control female = 5 "	"AD: 75±7
+AD after outliers removed: 75±7
+Controls: 76±12"	"Not reported (but statistically significant post mortem differences noted in Braak score, brain pH, brain weight, amyloid deposition, and post-mortem delay detailed in Table 1)"	Not reported	"Qiagen AllPrep RNA isolation, Cat No. 80224"	polyA selection	Not reported	TruSeq library prep (Illumina)	"AD: 348±108
+AD after outliers removed: 321±98
+Controls: 551±297
+
+Unit of measurement was not reported"	50bp	"average reads sequenced per sample = 48,772,000"	paired-end	HiSeq2000	STAR version 2.3.0	"Not reported, but assume GRCh37
+since they used GENCODE gene 
+features from 2013-12-05 whichx
+was based on GRCh37"	featureCounts version 1.4.3	GENCODE version date 2013-12-05	No transcript discovery	edgeR version 3.8.6	"Age, gender, and the first 2 PCs."	low-abundant features were omitted (<1 counts per million in 75% of samples).	Benjamini-Hochberg	"Combined FDR corrected p-values and log fold changes to calculate a differential
+expression score.  Genes with a differentially expressed score ?0.10 were considered differentially expressed genes and retained for further analysis"	"In the discovery dataset - 2716 DEG (DE score ?0.10)
+In the replication dataset (GSE95587 from GeneExpression Omnibus) - 2490 DEG
+1311 DEG from discovery dataset replicated in the replication dataset (48%)"	1.8	Suitable for meta-analysis. They provide a table with p-values.  They provide DE scores.	"Data processed per sample using trim-o-matic version 0.33, picard version 1.90, and fastQC version 0.11.3.  
+Counts were normalized using edgeR version 3.8.6.  Principal components were calculated using prcomp in R.
+For all DE genes, they extracted experimental, coexpression, database interactions scored  ?500 from STRING v10.  Network was imported to Cytoscape version 3.4.0 and subjected to Markov Clustering Algorithm to identify gene modules."	van Rooij et al.
+The role of H3K9 acetylation and gene expression in different brain regions of  Alzheimer's disease patients.	10.2217/epi-2022-0096	"May 19th, 2022"	AD vs Controls	"Auditory cortex, hippocampus, cerebellum
+Primarily gray matter
+
+Every participant had one sample from each brain region"	"Controls - 50% male/50% female
+AD - 33.3% male/66.7% female"	Not reported	"Alzheimer's disease (AD) cases: 6
+Elderly Controls: 6
+
+AD male = 2 | AD female = 4
+Elderly control male = 3 | Elderly control female = 3 "	"Control: 79.33 (8.6)
+AD: 82.50 (4.3)"	"AD neuropathological diagnosis was confirmed based on the presence of senile plaques and NFTs, neuronal loss, brain atrophy and cognitive decline"	"Age of diagnosis, AD: 73.6 (3.01)
+Age at death, AD: 82.50 (4.3)"	"AllPrep DNA/RNA/miRNA Universal Kit (Qiagen, MD, USA)."	rRNA-depleted	Average among brain regions: 4.3 to 7.2	"NEBNext Ultra II RNA Library Prep Kit for Illumina (New England
+Biolabs)"	"Control: 17.7 (8.9) hours
+AD: 14.8 (4.1) hours"	125bp	 average of ?60.4 million reads per sample	paired-end	HiSeq2500	Burrows–Wheeler alignment	GRCh38/hg38	Not reported	Not reported	Not reported	DESeq2	Not reported	Not reported	"Not reported, but Benjamini-Hochberg is assumed since it is the default for DESeq2 and adjusted p-value was reported"	Adjusted p-value <0.05 and FC threshold = 0.3 (abs(log2FC) >1.25)	"In auditory cortex 213 DEGs (180 upregulated and 33 downregulated in Alzheimer's disease cases compared to controls)
+In hippocampus 10 DEGs (1 upregulated and 9 downregulated in Alzheimer's disease cases compared to controls)
+In cerebellum 0 DEGs
+All regions at once 69 DEGs (22 down-regulated, 47 up-regulated  in Alzheimer's disease cases compared to controls)"	1.7	"Not suitable for meta-analysis. Include a table with p-values, but only for genes whose regulation of expression and H3K9 acetylation are found in the same direction."	"Library preparation was performed using the NEBNext Ultra II RNA Library Prep Kit for Illumina (New England Biolabs).
+Quality check was
+conducted using FastQC.
+Functional analysis: Differentially H3K9-acetylated genes were subjected to gene ontology enrichment analysis, performed using the Rpackage clusterProfiler and considering ‘biological process’ terms.
+Network analysis: OmicsNet platform [28] to predict protein–protein interaction (PPI), as well as regulatory networks involving
+transcription factors"	Santana et al.
+Association of AEBP1 and NRN1 RNA expression with Alzheimer's disease and  neurofibrillary tangle density in middle temporal gyrus.	10.1016/j.brainres.2019.06.004	"September 15th, 2019"	Alzheimer's Disease vs Controls	Middle temporal gyrus	"AD: 3 male (37.5%)/ 5 female (62.5%)
+ND Control: 4 male (50%)/ 4 female (50%)"	Not reported	"AD: 8
+ND Control: 8
+
+AD male: 3  | AD female: 5
+ND control male: 4 | ND control female: 4"	"AD: 83.9 ± 6.5 years (range: 75–94 years)
+ND Control: 84.4 ± 4.1 years (range: 77–90)"	"Consensus diagnosis using standard NIH AD Center criteria for AD or neurologically normal, non-demented elderly control"	Not reported	RNEasy Mini Kit (Qiagen) 	rRNA-depleted	"mean ± standard deviation
+
+AD: 9.4 ± 0.6 (range 8.1 - 10.0)
+ND Control: 9.3 ± 0.5 (range 8.4 - 9.8)"	"TruSeq Stranded Total RNA 
+with Ribo-Zero Gold Kit 
+(Illumina, Inc)"	"AD: 2.6 hours ± 0.6  (range: 1.8–3.3)
+ND Control: 4.3 hours ± 4.4  (range: 1.4–15.0)"	50bp	"Samples sequenced to average depth of 42.3 ± 27.0 million reads, an average of 38.3 ± 24.5 million reads uniquely mapped (90.5%)"	paired-end	HiSeq2500	STAR version 2.5	human genome reference GrCh37	featureCounts v1.5.1	Ensembl release 87	Quantification only	DESeq2 version 1.14.1	"Sex, age, RIN and PMI"	"Raw counts were filtered including only genes with average counts across
+all the samples greater than 5"	Benjamini-Hochberg	adjusted p-value (adj p)?<?0.05.	"1,534 differentially expressed genes (DEGs)
+794 (51.8%) downregulated in AD compared to controls
+740 (48.2%) upregulated in AD compared to controls"	1.9	"Not suitable for meta-analysis.
+Only provides table with p-value for DEGs, not all genes"	"Sequencing libraries were prepared with 250ng of total RNA using TruSeq Stranded Total RNA with Ribo-Zero Gold Kit (Illumina, Inc)
+Final PCR-enriched fragments were validated on a 2200 Tapestation (Agilent Technologies)
+BCL files were demultiplexed and converted to FASTQs with
+bcl2fastq v2.18 (Illumina, San Diego, CA)
+Reads were summarized as counts at the gene-level with featureCounts
+v1.5.1 using GRCh37 GTF from Ensembl release 87 as the annotation
+file. 
+. Quality control
+of FASTQs files was conducted with fastqc v0.11.5, and quality control
+of BAM files was conducted with Qualimap v2.2.1 in BAM and RNAseq
+mode. A summarized quality control report was generated with MultiQC v0.9"	Piras et al.
+"Transcriptomics Profiling of Alzheimer's Disease Reveal Neurovascular Defects,  Altered Amyloid-Î² Homeostasis, and Deregulated Expression of Long Noncoding RNAs."	10.3233/JAD-150398	"October 1st, 2015"	AD vs Controls	Hippocampus  	"AD: 3 female, 1male
+Control: 2 female, 2 male"	Not reported	"AD: 4 | Control: 4
+
+AD male: 1 | AD female 3
+Control male: 2 | Control male: 2"	"AD: ages  82, 82, 83, 87 
+Control ages:  77, 83,85, >90 age per cage"	"Used NIA-Regan criteria
+
+AD:  'high' likelihood for Alzheimer's disease.
+Control'criteria not met' for Alzheimer's disease."	Not reported	CsCl purification	rRNA-depleted	"Control: NA, 6.5, 8.6, 8.32
+AD: 6.9, 6.5, 7, 6.7
+
+range: 6.5 - 8.6
+
+"	"modified version of the 
+Illumina Directional 
+mRNA-Seq sample
+ preparation protocol"	"Control: 1, 2, 2.5, 4.5
+AD: 2, 2.33, 2.83, 3
+"	Not reported	" ?177,000,000 reads per sample"	Not reported	Illumina HiSeq2000	TopHat  	Reference transcriptome Ensembl GRCh37	Cufflinks (version not reported)	Ensembl GRCh37 (release not reported)	"Transcriptome assembly with Cuffliunks 
+merged with Ensembl GRCh37 annotation"	"Cuffdiff module of Cufflinks is utilized to retrieve Fragment Per Kilobase per Million fragments mapped (FPKM) values for both annotated and novel genes that
+ are then used to calculate differential gene expression applying Rank Products using 
+RankProd R package (version not reported)"	Not reported	"Filtered based on read coverage, genes having average coverage of at least 20 reads in one of the two groups were retained.  "	Benjamini-Hochberg	adjusted p-value < 0.1 was used as the cutoff for statistical significance.	"143 protein coding genes, 90 lincRNAs, 31 antisense RNAs, and 1 novel putative protein coding gene differentially expressed between AD and control"	1.9	"Not suitable for meta-analysis. Only includes table with p-values for the 143 protein coding genes, 90 lincRNAs, and 31 antisense RNAs they found to be differentially expressed"	"Ribosome-depleted RNA was treated with phosphatase, then with T4 polynucleotide kinase (PNK). RNA was then purified with the QIAGEN RNeasy column purification kit
+
+RNA was reverse transcribed and PCR amplified on regular thermo cyclers for 15 cycles. PCR products were purified using AMPure beads
+RNA sequencing libraries were validated using the Agilent Bioanalyzer High Sensitivity DNA kit
+
+To assess the protein coding potential of these novel transcripts we used the coding potential assessment tool (CPAT)
+
+To identify AD specific transcriptomic changes, we retrieved FPKM values for genes utilizing Cuffdiff and performed Rank Products analysis [18, 26] to obtain q values corrected for multiple comparison"	Magistry et al.
+Differentially expressed genes in Alzheimer's disease highlighting the roles of microglia genes including OLR1 and astrocyte gene CDK2AP1	10.1016/j.bbih.2021.100227	"Feb 24th, 2021"	"AD vs Controls
+MCI vs Controls
+"	"Superior temporal gyrus (Brodmann area 22)
+Inferior frontal gyrus (Brodmann area 44)"	"
+Superior temporal gyrus AD: 11 female, 13 male
+Superior temporal gyrus MCI: 7 female, 7 male
+Superior temporal gyrus Control: 11 female, 27 male
+	
+Inferior frontal gyrus AD: 21 female, 12 male
+Inferior frontal gyrus MCI: 4 female, 5 male
+Inferior frontal gyrus Control: 6 female, 17 male"	Not reported	"
+Superior temporal gyrus AD = 24 (11 female, 13 male)
+Superior temporal gyrus MCI  = 14 (7 female, 7 male)
+Superior temporal gyrus Control = 38 (11 female, 27 male)
+	
+Inferior frontal gyrus AD = 33 (21 female, 12 male)
+Inferior frontal gyrus MCI = 9 (4 female, 5 male)
+Inferior frontal gyrus Control = 23 (6 female, 17 male)"	"mean ± standard deviation
+
+Superior temporal gyrus AD = 86.79 ± 6.53
+Superior temporal gyrus MCI  = 84.79 ± 5.67
+Superior temporal gyrus Control = 79.97 ± 7.26
+
+Inferior frontal gyrus AD = 85.58 ± 6.93
+Inferior frontal gyrus MCI = 83.67 ± 6.38
+Inferior frontal gyrus Control = 80.52 ± 7.46"	"Clinical diagnosis status was used as the case status phenotype for this study, which was largely consistent with CERAD score 
+
+The case status was also consistent with the National Institute on Aging and the Reagan Institute (NIA-Regan) AD criteria"	Not reported	"AllPrep DNA/RNA/miRNA Universal Kit (QIAGEN Inc., Germantown, MD, USA)"	polyA enrichment	RIN > 6 for all samples	"TruSeq® Stranded mRNA Library
+Prep (Illumina Inc., San Diego, CA, USA)"	"mean ± standard deviation
+
+Superior temporal gyrus AD = 3.38 ± 2.42
+Superior temporal gyrus MCI  = 3.09 ± 0.80
+Superior temporal gyrus Control = 3.28 ± 2.43
+
+
+Inferior frontal gyrus AD = 3.06 ± 2.00
+Inferior frontal gyrus MCI = 3.22 ± 0.92
+Inferior frontal gyrus Control = 3.14 ± 1.75"	100bp	sequencing depth of 40M reads (or 8G data)	paired-end	 Illumina HiSeq4000 	STAR versi on 2.5.3a	GRCh37	RSEM version 1.3.0	"all 26,000 genes in NCBI RefSeq database (version date; 2015-07-17)"	"No discovery, quantification based on 
+reference only"	limma (version not reported)	"The statistical model corrected the top five surrogate variables, 
+gender, and diagnosis"	"16,636 genes had count per million reads (cpm) greater than 0.25 in at least 50% of the samples and were carried forward for differential gene expression analysis
+
+"	"Reported performing p-value correction for multiple comparisons, but did not specify the method. Here we assume Benjamini-Hochberg given that it is the default correction for ""limma"", the differential expression tool used in this study."	adjusted p less than 0.05 and fold change greater than 1.2	"AD vs CN in superior temporal gyrus = 719 DEGs (395 downregulated in Alzheimer's disease compared to controls and 324 upregulated in Alzheimer's disease compared to controls)
+MCI vs CN in superior temporal gyrus = Not performed reported.
+AD vs CN in inferior temporal gyrus = 0
+MCI vs CN in the inferior temporal gyrus = 2 DEGs (2 upregulated in mild cognitive impairment compared to controls)
+"	1.9	Not suitable for meta-analysis. Table appropriate for meta-analysis not included	"RNA quantity was assessed by NanoDrop™ 2000 spectrophotometers (Thermo Scientific, Waltham, MA, USA)
+
+RNA total mass was evaluated using Agilent 2100 Bioanalyzer system (Agilent Technologies, Santa Clara, CA, USA)
+
+ Libraries were constructed using TruSeq® Stranded mRNA Library Prep (Illumina Inc., San Diego, CA, USA) 
+
+Data were processed per sample using cutadapt (v1.13)
+
+ used the R package sva (v3.30.1) to detect and estimate surrogate variables for unknown sources of variation
+
+Genes implicated in AD were sourced from DisGeNET"	Li et al.
+Epigenome signatures landscaped by histone H3K9me3 are associated with the synaptic dysfunction in Alzheimer's disease	10.1111/acel.13153	"June 19th, 2020"	AD vs Controls 	Cortex tissues	"Reports sex for all samples used for CHIP-Seq, however, does not identify the subset of 6 AD and 6 Controls used for RNAseq"	Not reported	"Alzheimer's disease: 6
+Controls: 6"	"Reports age for all samples used for CHIP-Seq, however, does not identify the subset of 6 AD and 6 Controls used for RNAseq"	"underwent annual cognitive evaluations using the National Alzheimer's Disease Coordinating Center (NACC) Uniform Data Set (UDS) protocol 
+
+neuropathological diagnosis for Alzheimer's disease was performed by board?certified neuropathologists (T.D.S. and A.C.M.) based on the National Institute of Aging Reagan criteria
+
+Braak I-II for control
+Braak V-VI for AD
+"	Not reported	"No specifics provided, only stated this: ""Prepared samples for mRNA-seq following the Illumina standard protocol"""	polyA enrichment	Not reported	"No specifics provided, only stated this: ""Prepared samples for mRNA-seq following the Illumina standard protocol"""	Not reported	101 bp	Averaged 67.8 million reads per individual sample	paired-end	Illumina HiSeq2000	TopHat (version 2.0.7)	GRCh37	"R package GenomicFeatures 
+(version not reported)"	"Authors reported using GRCh37 version 19 as a reference. From this information, we assume they mean that they used the GENCODE annotation release 19 for GRCh37 as their transcriptome annotation"	"No discovery, only quantified annotated genes"	"EdgeR and DESeq 
+(vesions not reported) "	None	"
+Included genes withlog2CPM > -2 
+
+"	Not reported	"In each method (DESeq2 and EdgeR), the DEGs were selected as the genes with p-value < 0.05 
+and | fold-change | > 1.38. We combined the two sets 
+of the DEGs identified from the two methods 
+(3290 and 1483 DEGs from EdgeR and DESeq, respectively)."	"3,367 differentially expressed genes
+(1913 up?regulated and 1,454 down?regulated genes in Alzheimer's disease compared to controls)"	1.6	"Not suitable for meta-analysis. Provide a table for DEGS if they had P < 0.05 and fold-changes > a cutoff, which was determined as a minimal fold-change cutoff, the 10th percentile (1.38-fold) of the fold-change distribution obtained by performing random permutation experiments 1000 times"	"QIAquick PCR purification kit (Qiagen)
+
+Adapter sequences and bases with quality scores less than 20 were trimmed using cutadapt.
+
+182 DEGS shared with differentially H3K9me3 occupied genes (DMGs)
+(46 RNA up regulated and H3K9me# down regulated; 44 RNA down regulated and H3K9me3 up regulated)
+
+26 DEGs in astrocytes (2 shared with DMGs)
+87 DEGs in oligodendrocytes (1 shared with DMGs)
+13 DEGs in microglia (1 shared with DMGs)
+9 DEGs in endothelial cells (none shared with DMGs)"	Lee et al.
+Synaptic resilience is associated with maintained cognition during ageing.	10.1002/alz.12894	"December 22nd, 2022"	"Mid-life controls vs AD
+Healthy aged controls vs AD
+Mid-life controls vs Healthy aged controls
+
+Lifetime cognitive resilient vs Lifetime cognitive decline (split the healthy aged controls group into these two groups for comparison)"	"primary visual cortex (Brodmann area 17) and middle temporal gyrus (Brodmann area 20/21)
+
+ total brain homogenate samples and synaptoneurosome samples"	"Mid-life control: Male-10, Female-5 (66.7%/33.3%)
+Healthy age control: Male-11, Female-7 (61.1%/38.9%)
+AD: Male-7, Female-6 (53.8%, 46.2%)
+Overall: Male-28, Female-18 (60.9%/39.1%)
+
+Lifetime cognitive resilient: Male-5, Female-4 (55.6%/44.4%)
+Lifetime cognitive decline: Male-6, Female-2 (75%/25.0%)
+Overall: Male-11, Female 6 (64.7%/35.3%)"	Not reported	"Mid-life control = 15 (Male-10, Female-5)
+Healthy age control = 18 (Male-11, Female-7)
+AD = 13 (Male-7, Female-6)
+Overall = 46 (Male-28, Female-18)
+
+Lifetime cognitive resilient = 9 (Male-5, Female-4)
+Lifetime cognitive decline = 8 (Male-6, Female-2)
+Overall = 17 (Male-11, Female 6)"	"Mid-life controls:  mean (SD) - 42.7 (9.41), median (min, max) 46.0 (19.0, 58.0)
+Healthy aged controls:  mean (SD) - 80.7 (2.33), median (min, max) 80.0 (77.0, 85.0)
+AD: range -  mean (SD) - 80.8 (11.0), median (min, max) 84.0 (61.0, 95.0)
+
+Lifetime cognitive resilient: mean (SD) - 81.0 (2.12), median (min, max) 81.0 (79.0, 84.0)
+Lifetime cognitive decline: mean (SD) - 80.5 (2.73), median (min, max) 80.0 (77.0, 88.0)
+
+Overall (n=46): mean (SD) 80.8 (2.36), median (min, max) 81.0 (77.0, 85.0)"	"Mid-life controls: within age range (19 to 58 years old) with no neurological or psychiatric diagnoses and no neuropathological diagnoses at autopsy
+
+Healthy aged control: 
+participation in the Lothian Birth Cohort 1936 with no dementia diagnosis and no severe neurodegeneration-associated pathology (Braak stage < 5)
+
+AD: clinical dementia diagnosis and confirmed neuropathological diagnosis of AD
+
+To divide healthy agers into lifetime cognitive resilient and lifetime cognitive decline groups:  plotting age-adjusted Moray House Test scores from age 11 against the mean of older-age-adjusted MHT scores from ages 70 and 76 from all healthy agers in the cohort (n = 641). Donors of post-mortem samples were then plotted on this lifetime cognitive scale, where samples above the regression line were defined as LCR (n = 9) and those below were defined as LCD (n = 8). (Cognitive data not available for one subject)
+
+Samples excluded from healthy agers/LBC1936 groups were re-classified as AD when neuropathology
+including Braak stage was > 4 and clinical diagnosis was dementia (n = 3)"	Not reported	RNeasy Plus Micro Kit (Qiagen)	polyA enrichment	"mean ± standard deviation
+
+ 4.53  ± 1.71"	TruSeq mRNA Sample Prep Kit	"
+Mid-life control: mean (SD) - 86.7 (22.9), median (min, max) - 94.0(47.0-126 )
+Healthy age control: mean (SD) - 60.1 (23.7), median (min, max) - 64.5 (30.0-95.0)
+AD: mean (SD) -  83.4 (17.8), median (min, max) - 80.0 (49.0-112)
+Overall: mean (SD) - 75.3 (24.8), median (min, max) - 74.5 (30.0-126)
+
+Lifetime cognitive resilient: mean (SD) - 58.3 (20.8), median (min, max) - 57.0 (30.0, 95.0)
+Lifetime cognitive decline: mean (SD) - 60.6 (29.1), median (min, max) - 73.0 (3.00, 95.0)
+Overall: mean (SD) - 59.4 (24.3), median (min, max) - 61.0 (3.00, 95.0)"	50pb	Not reported	paired end	Illuminba NovaSeq	STAR aligner version 2.7.0	hg38	 featureCounts version 1.6.3	Ensembl version 96	"No discovery, only quantified annotated genes"	DESeq2 version 1.24.0	None	Not reported	Benjamini-Hochberg	adjusted p-value (q-value) < 0.05	"Mid-life control vs. AD in synaptoneurosome samples in middle temporal gyrus - 9671 DEGs.
+Healthy aged controls vs Mid-life controls in synaptoneurosome samples in midde temporal gyrus - 5801 DEGs.
+Healthy aged controls vs AD -in synaptoneurosome samples in middle temporal gyrus - 293 DEGs.
+
+Numerous transcriptional changes were also observed in BA17 region (primary visual cortex) and in total homogenate preparations between AD/HA and ML, but there were no differences in gene expression in BA17 between healthy ageing and AD.
+
+Lifetime cognitive resilient vs Lifetime cognitive decline in synaptoneurosomes samples from middle temporal gyrus - 363 DEGs
+Lifetime cognitive resilient vs Lifetime cognitive decline in total brain homogenate samples from middle temporal gyrus - 75 DEGs
+Lifetime cognitive resilient vs Lifetime cognitive decline in synaptoneurosomes samples from primary visual cortex - 1116 DEGs
+Lifetime cognitive resilient vs Lifetime cognitive decline in total brain homogenate samples from primary visual cortex - 112 DEGs
+"	1.8	"Suitable for meta-analysis. Provides table with all necessary information for 
+performing meta-analysis for each individual brain region"	"Illumina libraries were prepared from 1µg of RNA using TruSeq mRNA Sample Prep Kit
+
+Raw reads were processed using RTA 1.17.21.3 and bcl2fastq v2.20 (Illumina)
+
+analyses were performed using the statistical computing language R, version 3.6.1
+
+Differential
+expression was followed by gene set analysis using Camera [23] from the limma R package (version
+3.40.6) [24] and Gene Ontology enrichment analysis using topGO (R package version 2.36)
+
+For post-mortem tissue experiments, gene expression levels were normalized in all cases to KCP,
+CCR9 and EN2 housekeeping controls (selected based on coefficient of variation values from RNAseq dataset)"	King et al.
+Integrated whole transcriptome and DNA methylation analysis identifies gene  networks specific to late-onset Alzheimer's disease.	10.3233/JAD-141989	"February 6th, 2015"	"Alzheimer's Disease vs Controls
+Alzheimer's Disease vs Disease Controls (Dementia with Lewy Bodies)"	"Temporal pole brain tissue (Brodmann area 38), grey and white matter included"	"AD - 10 male, 0 female
+Control - 10 male, 0 female
+Dementia with Lewy Bodies - 10 male, 0 female"	"AD - 10 Caucasian
+Control - 10 Caucasian
+Dementia with Lewy Bodies - 10 Caucasian"	"AD - 10 male, 0 female
+Control - 10 male, 0 female
+Dementia with Lewy Bodies - 10 male, 0 female"	"AD - 76.5 (±5.6)
+Control - 74.6 (±8.2)
+Dementia with Lewy Bodies - 79.1 (±6.0)"	"All cases underwent a standardized neuropathological assessment with evaluation of gross and microscopic findings and quantitative analysis of Alzheimer-type pathology. 
+
+LOAD cases were selected according to dementia status, staged for LOAD pathology according to Braak (III, IV), and were positive for A and PHF-tau in two brain areas (Brodmann areas 9 and 39)
+
+Semi-quantitative grading of Lewy body pathology and assignment of Lewy body type were determined according to the Third CDLB recommendations. Cases of DLB were selected based on the distribution of Lewy bodies and the severity of Alzheimer-type
+pathology. The DLB cases included in the study had a more extensive neocortical type of distribution that included the temporal lobe. All of the transitional and diffuse neocortical cases were from demented subjects. Based on the likelihood categories,
+the extensive alpha synucleinopathy corresponds to an intermediate or high likelihood of DLB in this cohort.
+
+Normal control samples were confirmed to be cognitively normal and died from causes unrelated to neurological disease. 
+
+Autopsies and neuropathologic
+diagnoses were performed in accordance with published guidelines by a consultant neuropathologist."	Not reported	"RNA was isolated from frozen tissue samples using the QIAGEN Qiashredder and TRIzol reagents (Invitrogen)
+
+RNA was extracted using the miRNeasy
+mini kit (Invitrogen) and each sample was treated with an on-column DNAse treatment (Invitrogen). RNA
+was dissolved in DNase/RNase-free water (Invitrogen) and concentration was determined using the Qubit Fluorometer with the Qubit™ RNA kit."	rRNA-depleted	"mean ± standard deviation
+
+AD:  6.8 ± 0.42
+Control: 7.06 ± 0.63
+Dementia with Lewy Bodies: 6.6 ± 0.35
+
+
+2100, and all samples had a RIN number ?6"	"Script-Seq (Epicentre® )
+along with the Phusion ® Polymerase enzyme (Kappa
+Biosystems)"	Not reported	100 bp	average of 50 million reads sequenced per sample	paired end  	Illumina HiSeq2000	GSNAP software (version not reported).	"Not reported, but since Gencode version 15 is compatible with GRCh37 we assume GRCh37 was used here."	SAMtools (version nor reported)	"Gencode
+version 15"	"No discovery, only quantified annotated genes"	DESeq2 version 1.12.0	Not reported	"only transcripts with a count above five
+were used in differential expression analysis."	Benjamini-Hochberg	adjusted p-value (q-value) < 0.05	"16 of these genes were significantly different between Alzheimer's disease cases and notmal controls.
+
+Further analysis comparing on these 16 significant differentially expressed genes revealed that 5 of these genes were also differentially expressed between Alzheimer's disease cases and Dementia with Lew Bodies. 2 were upregulated in Alzheimer's disease while 3 were downregulated in Alzheimer's disease."	1.8	Not suitable for meta-analysis. No table of DEGs provided	"Libraries were prepared from 10 g of total RNA isolated from each sample
+
+RNA concentrations were determined using the Qubit™ RNA kit. 
+
+Approximately 600 ng of ribosomal depleted RNA was utilized for library preparation using Script-Seq (Epicentre®)
+along with the Phusion® Polymerase enzyme (Kappa Biosystems). 
+
+Library completion was confirmed using
+the DNA High Sensitivity Kit on the Bioanalzyer 2100 and concentration was determined using the Library
+Quantification Kit-Illumina (Kappa Biosystems).
+
+Strandedness was assigned based on the Script-seq library protocol"	Humphries et al.
+Defining early changes in Alzheimer's disease from RNA sequencing of brain  regions differentially affected by pathology.	10.1038/s41598-021-83872-z	"March 1st, 2021"	"Alzheimer's Disease vs Controls 
+(age-, gender-, APOE
+?4-, RIN- matched neurologically normal controls)"	"primary visual cortex
+and
+precuneus"	"AD - 3 male, 2 female
+Control - 3 male, 2 female"	Not reported	"AD - 3 male, 2 female
+Control - 3 male, 2 female"	"Mean (SD)
+
+AD - 76 (14)
+Control - 78 (9)
+"	All cases had been designated with high likelihood of AD (‘ABC’ score) according to the latest pathological diagnostic criteria and all were Braak stage VI	Not reported	"TRIzol (Life Technologies, Termo Fisher Scientifc, Carlsbad, CA 92008, USA) including an on-column DNase I treatment"	rRNA-depleted	"
+Mean (SD)
+
+Precuneus
+AD - 5.2 (0.3)
+Control - 5.5 (0.3)
+
+
+Primary Visual Cortex
+AD - 5.3 (0.2)
+Control - 5.3 (0.2)
+"	"TruSeq Stranded Total RNA 
+Sample Prep Kit (Illumina, USA)"	"Mean (SD)
+AD - 11 hours (12)
+Control - 18 hours (18)
+"	125 bp	average sequencing depth was 25 million reads per sample	paired-end	Illumina HiSeq2500	STAR (version 2.5.1a)	GRCh38.p5	 RSEM (version 1.3.0)	GENCODE version 24	"No discovery, quantification based on 
+reference only"	edgeR (version not reported)	"Disease status, brain region, age, gender, post-mortem interval (PMI), brain pH (occipital lobe), and STG-RIN23"	"Transcripts that had less than fve reads in two or less samples were fltered
+out prior to diferential expression analysis"	Benjamini-Hochberg	Significance was set at a false discovery rate (FDR)-adjusted p-value ? 0.05	"AD precuneus - 559 DEGs (256 downregulated in AD compared to controls and 303 upregulated in AD compared to controls)
+
+AD primary visual cortex - 71 DEGs (32 downregulated in AD compared to controls and 39 upregulated in AD compared to controls)
+
+40/71 DEGs in the AD primary visual cortex were differentially expressed in the same direction as in the AD precuneus"	1.9	Not suitable for meta-analysis. Only provides table with with p-values for DEGs	"Mixes of External RNA Controls Consortium (ERCC) Spike-Ins (Termo Fisher Scientifc) with diferent molar ratios were added to control (Mix 1) and AD samples (Mix 2)
+
+All data analyses were carried out within the R project environment
+
+Gene enrichment analysis was performed using various databases including: Gene Ontology (GO) sets of molecular functions (MF), biological processes (BP), and cellular components (CC). General concordance between gene associations in the two regions was explored by correlation analysis fold-changes.
+
+In order of magnitude data variance was due to: RIN, age, brain
+region, pH, gender and then disease status. Excluding region, all these factors were included
+in linear regression models to generate the DEGs for the VIC and PREC. 
+
+Hierarchical clustering of the DEGs
+from both regions demonstrated that control and case samples largely segregated with each other. Two
+controls, IS43 and IS44, segregated with the cases and this could not be explained by a common APOE genotype
+(?3/?4 and ?3?3 respectively) or other available clinical data."	Guennewig et al.
+A Preliminary Comparison of the Methylome and Transcriptome from the Prefrontal Cortex Across Alzheimer's Disease and Lewy Body Dementia	10.3233/ADR-220114 WE  - Emerging Sources Citation Index (ESCI)	"
+April 20th, 2023"	"control versus AD
+control versus Dementia with Lewy bodies (DLB)
+control versus Dementia with Lewy bodies and AD (DLBAD)
+control versus Parkinson Disease Dementia (PDD)
+AD versus DLB
+AD versus DLBAD
+AD versus PDD
+DLB versus DLBAD
+DLB versus PDD
+DLBAD versus PDD
+ (APOE ?4/?4 excluded from final analysis)"	prefrontal cortex	"Note - stats from the total cases (n=94), not the subset (n=62) used in RNAseq
+
+Total number (male - female)
+
+All - 94 (48M- 36F)
+Control - 18 (11M - 7F)
+DLB -  19 (9M - 10F)
+AD -  19 (5M - 14F)
+DLBAD - 19 (7M - 12F)
+PDD -  19 (16M - 3F)"	All European ancestry	"Control? = ?16
+
+AD? =? 13
+
+DLB? =? 12
+
+DLBAD? =? 10 
+
+PDD? =? 8"	"Note - stats from the total cases (n=94), not the subset (n=62) used in RNAseq
+
+Mean (S.D.)
+
+Total - 84.9 (7.3)
+Control - 84 (9.1)
+DLB - 84.9 (7.8)
+AD - 87.1 (3.6)
+DLBAD - 88.8 (4.4)
+PDD - 79.4 (7.3)"	"Expert diagnosticians at the research centers reviewed subject clinical history, physical examinations, and neuropsychological tests at a consensus diagnosis conference. All individuals included in the dementia group received a clinical diagnosis of “probable AD,” “possible AD,” or “dementia, type unknown” according to the National Institute of Neurological and Communicative Disorders and Stroke and the AD and Related Disorders Association criteria
+
+Subjects with dementia underwent autopsy and were neuropathologically classified as DLB, DLBAD, AD, or PDD based on AD and LBD neuropathological changes. AD was defined by Braak stage IV, V, or VI and a CERAD plaque score of “moderate” or “frequent” but no LBD neuropathological changes. DLBAD was defined by the presence of both high-level AD neuropathological changes and limbic or neocortical stage LBD neuropathological changes."	Not reported	Qiagen AllPrep DNA/RNA Mini Kit (cat no 80284) according to the manufacturer’s instructions	polyA enrichment	All samples used in RNAseq had RIN >5	"TruSeq Stranded mRNA kit 
+(Illumina; cat no RS-122-2103)"	Not reported	Not reported	Not reported	Not reported	Illumina NovaSeq6000 sequencer (RTA 3.1.5)	STAR (version not reported)	GRCH38.p10	RSEM (version 1.3.0)	GENCODE version 26	"No discovery, quantification based on 
+reference only"	LIMMA (version not reported)	gender and RIN	Genes that were expressed at very low levels were filtered out using a threshold of <1 CPM in more than 10 samples.	Benjamini-Hochberg	 DEGs were identified using stringent and liberal criteria of Benjamini-Hochberg-adjusted p-value < 0.05 and unadjusted p-value < 0.05.	"Using the more stringent criteria of p-adjusted<0.05:
+Controls vs AD - 1,197 DEGs
+Controls vs DLB - 163 DEGs
+Controls vs DLBAD - 2,279 for DLBAD
+No DEGs for the remaining comparisons (control versus PDD, AD versus DLB, AD versus DLBAD, AD versus PDD, DLB versus DLBAD, DLB versus PDD, DLBAD versus PDD)
+
+Using the more liberal criteria of unadjusted p?<?0.05:
+Controls vs AD - 3,680 DEGs (1,791 up; 1,889 down) 
+Controls vs DLB - 2,360 DEGs (934 up; 1,427 down)
+Controls vs DLBAD - 4,397 DEGs (2,122 up; 2,275 down)
+Controls vs PDD - 1,059 DEGs (331 up; 730 down)
+ AD vs DLB - 97 DEGs (43 up; 54 down)
+ AD vs DLBAD - 88 DEGs (34 up; 54 down)
+AD vs PDD - 641 DEGs (326 up; 315 down)
+ DLB vs DLBAD - 432 DEGs (246 up; 186 down)
+ DLB vs PDD - 541 DEGs (286 up; 255 down)
+ DLBAD vs PDD - 793 DEGs (435 up; 358 down)
+
+423 DEGs that were in common when comparing all four dementia groups with controls:  11.5% of total DEGs for AD, 17.9% of total DEGs for DLB, 9.6% of total DEGs for DLBAD, and 39.9% of the total DEGs for PDD
+
+ there were no genes in common differentiating AD from the other dementias and controls, 0.1–2.1% overlapping genes in common when comparing DLB to the other dementias and controls, 0.1–3.4% in common when comparing DLBAD to the other dementias and controls, 3.1–6.1% when comparing PDD to the other dementias and controls
+
+ when anaylsis was restricted only to comparisons between the dementias, excluding controls, there were still no overlapping DEGs in common for AD, 1.5–8.2% for DLB, 0.6–5.7% for DLBAD, 27.6–40.5% overlapping DEGs in common when comparing PDD to the other dementias
+
+there was no significant enrichment of DMPs (differentially methylated probes) in any of the DEG lists for any of the 10 comparisons"	1.9	Suitable for meta-analysis. Has a table of DEG raw data including p-values	"
+samples with library sizes <15M were excluded
+
+Nucleic acid concentrations were measured by NanoPhotometer (Implen) 
+
+Presence of APOE alleles was determined by genotyping rs429358 and rs7412 by TaqMan Assay (Applied Biosystems)
+
+Total RNA was normalized to 10?ng/?l in a total volume of 50?l on the Perkin Elmer Janus Workstation (Perkin Elmer, Janus II)
+
+All steps were automated on the Perkin Elmer Sciclone NGSx Workstation
+
+Final RNASeq libraries were quantified using the Quant-it dsDNA high sensitivity assay, and library insert size distribution was checked using a fragment analyzer (Advanced Analytical; kit ID DNF474). Technical controls (K562, Thermo Fisher Scientific, cat# AM7832) were compared to expected results to ensure that batch-to-batch variability is minimized
+
+BRETIGEA was used to estimate relative cell abundance across 6 cell types: astrocytes, endothelial cells, microglia, neurons, oligodendrocytes, and oligodendrocyte precursors. Fifty marker genes per cell type were used for deconvolution. One-way ANOVAs were completed for all six cell types across the five diagnosis groups. Did not correct for multiple comparisons and defined significance as p?<?0.05.
+
+For determining differences in demographic features where the variable was continuous, a one-way ANOVA with Tukey’s post-hoc test was employed. For categorical variables, such as gender, chi-squared tests were employed. Distributions of variables were reviewed for normality by visually inspecting histograms. Statistical computations were conducted in R version 3.6.3"	Fisher et al.
+Whole transcriptome profling of Late-Onset Alzheimer’s Disease patients provides insights into the molecular changes involved in the disease	10.1038/s41598-018-22701-2	"March 9th, 2018"	"AD vs Controls
+PD vs Controls
+
+[DEGs that were in common between AD and PD (vs Control) were removed from further analysis]"	"hippocampal CA1 region, both grey and white matter"	All males	All Caucasian	"Control hippocampus = 6 (but one sample later discarded as an outlier)
+AD hippocampus = 6 (but one sample later discarded as an outlier)
+PD hippocampus = 6"	"Control: range = 60-81
+AD: range = 69-81
+PD: range = 63-82"	" Control subjects did not have a history of neurological disease or indications of brain abnormalities at tissue level, as determined at autopsy. 
+
+AD patients were positive for A? plaques and NFTs and were selected according to dementia status (Braak V or VI). 
+
+PD patients were positive for Lewy bodies in the substantia nigra."	Not reported	"Total RNA and small RNA fractions were selectively extracted using the mirVana™ miRNA Isolation Kit (Thermo Fisher Scientific, Waltham, MA, USA) according to the manufacturer’s instructions"	rRNA-depleted	"Overall: range = 5.2-7.9
+
+Control: range = 5.5-7.9
+AD: range = 5.2-7.6
+PD: range = 5.3-7.1"	"TruSeq Stranded Total RNA 
+Sample Preparation Kit 
+(Illumina, San Diego, CA, USA),"	"Control: range = 16-23
+AD: range = 1-22
+PD: range = 1-20"	100bp	"average of ?140 million reads per sample, of which 88 to 92% could be aligned to the reference genome"	paired-end	Illumina NextSeq 500 platform	GSNAP version 2013-11-27 	GRCh37/hg19	CuffDiff2 (version 2.1.1)	"list of exon-exon junctions from Ensembl, UCSC and RefSeq databases
+
+Transcriptome was obtained from iGenomes repository (http://cole-trapnell-lab.github.io/cufflinks/igenometable/) and annotations for rRNA genes were downloaded from UCSC genome browser selecting the RepeatMask table"	"No discovery, quantification based on 
+reference only."	CuffDiff2 (version 2.1.1)	Not reported	"RNA-seq data analysis identified 25,272 annotated genes as expressed in, at least, one of the sequenced samples."	"Not explicity reported, but assumed to be Benjamini-Hochberg since it is the default p-value correction for Cuffdiff2 and authors report using a corrected p-value threshold for differential expression analysis of RNAseq data"	"
+ | log2(fold change) |?>?1 and corrected P value?<?0.05."	"AD and Control: 2,122 DEGs
+2,075 were protein coding genes (789 were upregulated and 1,286 were downregulated)
+ 47 were lncRNAs, of which 23 lincRNAs [19 were upregulated (of which 11 lincRNAs) and 28 were downregulated (of which 12 lincRNAs)]
+RNA editing analysis: Focusing on recoding editing sites, 14 out of 1,585 sites were significantly and differentially edited (t-test followed by 10% FDR multiple-testing correction) in LOAD samples compared to controls
+
+PD and Control: 19 DEGs
+11 of these genes were also present in the list of the 2,075 protein coding genes deregulated in LOAD patients
+
+AD and Control: 2,064 specific differentially expressed transcripts in the hippocampus of LOAD patients (2,075 minus the 11 shared with PD)"	"1,9"	Not suitable for meta-analysis. Only have a table with p-value of deregulated protein coding genes.	"Principal Component Analysis (PCA) indicated anomalous behavior for Ctrl4 and AD2 samples, which were thus discarded from all further analyses
+
+Also performed small RNA-seq for miRNA profiling on hippocampus, middle temporal gyrus, middle frontal gyrus
+
+Extracted RNA was qualitatively evaluated using Agilent Bioanalyzer 2100 (Agilent, Santa Clara, CA, USA)
+
+RNA-seq libraries were prepared from 1?µg of total hippocampal RNA, using the Illumina’s TruSeq Stranded Total RNA Sample Preparation Kit (Illumina, San Diego, CA, USA), according to the manufacturer’s protocol
+
+Sequencing was performed on NextSeq 500 platform, generating for each sample almost 100 millions (?) of 100?bp paired-end reads
+
+Unique and concordant alignments in SAM format were converted in the binary BAM format by SAMtools and basic statistics were calculated using Picard tools (CollectRnaSeq Metrics.jar)
+
+Reference human transcriptome was obtained from iGenomes repository and annotations for rRNA genes were downloaded from UCSC genome browser selecting the RepeatMask table"	Annese et al.
+"Distinct transcriptomic responses to A beta plaques, neurofibrillary tangles, and APOE in Alzheimer's disease"	10.1002/alz.13387	"July 17th, 2023"	"laser capture microdissection:
+
+AD Thio S+ amyloid beta (A?) plaques vs Control plaque and tangle free cortex
+
+AD 50 ?m halo around (A?) plaques (peri-plaque) vs Control plaque and tangle free cortex
+
+AD Thio S+ NF tangles with the 50 ?m halo around them vs Control plaque and tangle free cortex
+
+AD areas distant (> 50 ?m) from plaques and tangles (areas devoid of dense?core ThioS+ A? plaques and NFTs)(distant) vs Control plaque and tangle free cortex
+
+AD Thio S+ amyloid beta (A?) plaques vs AD Thio S+ NF tangles with the 50 ?m halo around them
+
+AD APOE genotype subgroups (APOE ?3/?4 excluded from APOE analysis):
+
+APOE ?4/?4 vs APOE ?3/?3 plaque
+
+APOE ?4/?4 vs APOE ?3/?3 peri-plaque
+
+APOE ?4/?4 vs APOE ?3/?3 tangle
+
+APOE ?4/?4 vs APOE ?3/?3 distant"	superior temporal gyrus 	"Control - 4F, 4M
+
+AD (overall) - 5F, 5M
+
+AD APOE ?3/?3 - 2F, 2M
+
+AD APOE?4/?4 - 2F, 3M
+
+AD APOE ?3/?4 - 1F "	Not reported	"laser capture microdissection of superior temporal gyrus:
+AD case amyloid beta (A?) plaques - 10
+AD 50 ?m halo around  (A?) plaques - 10
+AD NF tangles with the 50 ?m halo around them - 10
+AD areas distant (> 50 ?m) from plaques and tangles - 10
+Control plaque and tangle free cortex - 8
+
+AD APOE genotype subgroups:
+APOE ?4/?4 - 5
+ APOE ?3/?3 - 4
+APOE ?3/?4 - 1 (excluded from APOE analysis)"	"Control - range 73-90+
+
+AD (overall) - range 60-86
+
+AD APOE ?3/?3 - range 60-86
+
+AD APOE?4/?4 - range 71-84
+
+AD APOE ?3/?4 - 85"	"CTRL donors were cognitively normal before death and had a Braak NFT stage of 0?III and a Consortium to Establish a Registry for Alzheimer's Disease (CERAD) neuritic plaque (NP) score of none or sparse
+
+AD donors met current clinical diagnostic criteria of dementia due to probable AD and current neuropathological diagnostic criteria of definite AD, that is, had a CERAD NP score of moderate or frequent and a Braak NFT stage of V/VI
+
+All donors were free of other potentially confounding neurological and neurodegenerative diseases as reflected by review of clinical information and complete neuropathological examination"	Not reported	"Caps containing laser?capture microdissected tissue were covered with 20 ?L RNA extraction buffer for 30 min at 42°C and RNA extracts were spun down at 800 × g for 2 min
+
+Extracted RNA was purified using the Arcturus PicoPure RNA Isolation Kit (ThermoFisher Scientific, Cat# KIT0204) following manufacturer's instructions. The ten RNA extracts from each region of interest of each donor were treated with DNase and consolidated in the same mini?column"	rRNA-depleted	" RIN ranging between 2.0 and 5.2, and DV200 (the % of RNA fragments longer than 200 nucleotides) between 70% and 95%."	SMARTer Stranded Total RNA?Seq Kit v2—Pico Input Mammalian (Takara Bio) following manufacturer's instructions in 10 batches.	"Control - range 9-72
+
+AD (overall) - range 10-39 (2 NA)
+
+AD APOE ?3/?3 - range 10-39 (1 NA)
+
+AD APOE?4/?4 - range 10-21 (1 NA)
+
+AD APOE ?3/?4 - 24"	60 bp	average number of input reads of 33.9 M	 paired?end	Illumina NextSeq2000 platform	STAR (version 2.7.1a)	 GRCh38	FeatureCounts (version 1.6.5)	Gencode version 31	"No discovery, quantification based on 
+reference only."	limma (version not reported)	"age, sex, and postmortem interval"	"Genes lowly expressed across conditions were filtered out, retaining those expressed at ? 1 CPMs in at least four samples"	"Benjamini?Hochberg
+"	Statistical significance was set at an adjusted p?value (adj. p?value) < 0.05 	"AD Thio S+ amyloid beta (A?) plaques vs Control cortex - 2623 upregulated genes and 2563 downregulated genes
+
+AD 50 ?m halo around (A?) plaques vs Control cortex -  1681 upregulated genes and 1535 downregulated genes
+
+AD Thio S+ NF tangles with the 50 ?m halo around them vs Control cortex - 1230 upregulated genes and 1056 downregulated genes
+
+AD areas distant (> 50 ?m) from plaques and tangles (areas devoid of dense?core ThioS+ A? plaques and NFTs) vs Control cortex - 1261 upregulated genes and 1103 downregulated genes
+
+AD versus CTRL DEGs that were common to all AD cortical locations - 631 upregulated and 494 downregulated
+
+Only the “plaque” versus CTRL cortex comparison revealed a sizable set of DEGs after multiple comparison corrections (1152 upregulated genes and 827 downregulated genes, adjusted p?value < 0.05)
+
+AD Thio S+ amyloid beta (A?) plaques vs AD Thio S+ NF tangles with the 50 ?m halo around them
+
+APOE ?4/?4 vs APOE ?3/?3 DEGs common to all areas - 324 upregulated and 367 downregulated genes
+
+APOE ?4/?4 vs APOE ?3/?3 A? plaques -  244/329 up/down regulated genes
+
+APOE ?4/?4 vs APOE ?3/?3 peri?plaque 165/213 up/down regulated genes
+
+APOE ?4/?4 vs APOE ?3/?3  NFTs - 56/70 up/down regulated genes
+
+APOE ?4/?4 vs APOE ?3/?3 distant locations - 341/287 up/down regulated genes
+
+APOE ?4/?4 vs APOE ?3/?3 A? plaque versus distant locations - 61 DEGs (55 up and 6 downregulated)
+
+APOE ?4/?4 vs APOE ?3/?3 peri?plaque and NFT locations -NSF"	2	Suitable for meta-analysis. Tables with fold-change and p-values for different comparison groups.	"Fifteen?micron?thick cryostat sections were mounted onto non?polarized glass slides (Gold Seal Rite?On Ultra Frost, Thermo?Scientific), thawed, slightly fixed in 75% ethanol for 40 s, and stained with Thioflavin?S 0.05% in 100% ethanol (ThioS, Sigma?Aldrich, Cat# 1326?12?1) for 5 min, followed by dehydration in increasing concentrations of ethanol and xylene, and air dried. Immediately, sections were placed onto the stage of an Arcturus Veritas LCM apparatus (Arcturus, Thermo?Scientific) and laser capture microdissection (LCM) was performed with a laser power of 80–85 ?V and pulse duration of 3500 ?s to fill up 10 CapSure LCM Macro caps (Thermo?Scientific, Cat# LCM0211) per region of interest and per donor. In CTRL donors, approximately 100 mm2 of cortex were dissected. In AD tissues, four different regions of interest were dissected: ThioS+ plaques (approximately 1000/donor), the 50 ?m area around those ThioS+ plaques, ThioS+ NFTs with the 50 ?m area around them (approximately 1500/donor), and cortex far (> 50 ?m) from both ThioS+ plaques and NFTs (approximately 80–100 mm2)
+
+ External RNA Controls Consortium RNA Spike?In Mixes (Ambion, Life Technologies) consisting of 92 poly?adenylated transcripts with known concentration were added to each RNA sample; and same reference sample was loaded in all plates
+
+Sequencing quality control was performed with the FastQC (version 0.11.9) and MultiQC (version 1.9) software.
+
+FeatureCounts (v1.6.5) was used to assign aligned reads to genes. Raw counts were log?transformed and trimmed mean of M values normalized. After removal of duplicate reads expected at high rates from low input RNA samples, downstream analysis was performed based on a mean library size of 10.72 M reads.
+
+
+Differential expression analyses were conducted using the limma package in R, and the models used were based on prespecified hypotheses, as follows:
+
+1. Transcriptomic differences between AD and CTRL donors are maximum within and around A? plaques and NFTs:
+exp??0+?1?GMlocation+e,
+where gray matter (GM) location is a categorical variable with CTRL cortex as reference, and “plaques,” “peri?plaque,” “tangle,” and “distant” as possible values.
+
+2. A? plaques and NFTs are associated with distinct transcriptomic changes and the APOE genotype impacts the transcriptomic changes within and around A? plaques and NFTs in the AD brain. We ran two separate linear regression models:
+
+a) A model to determine the differentially expressed genes (DEGs) by APOE genotype in each cortical location only in AD donors:
+exp??0+?1?APOE+e,
+where APOE is a binary variable with APOE ?3/?3 as reference (the single APOE ?3/?4 AD donor was excluded from this analysis).
+
+b) A mixed?effects model to determine the effects of APOE genotype, cortical regions (i.e., location), and the interaction between the two:
+exp??0+?1?APOE+?2?GMlocation+?3?APOE?GMlocation+e,
+where APOE is a binary variable with APOE ?3/?3 as reference (the single APOE ?3/?4 AD donor was excluded from this analysis), GM location is a categorical variable with “distant” as reference, and “plaques,” “peri?plaque,” and “tangle” as possible values (CTRL donors are excluded from this analysis), and the interaction term APOE*GM location represents the difference between both APOE genotypes at each location relative to the “distant” one."	Das et al.
+The Caribbean-Hispanic Alzheimer's disease brain transcriptome reveals  ancestry-specific disease mechanisms.	10.1016/j.nbd.2022.105938	"Nov 30th, 2022"	"Caribbean Hispanic (CH) with AD vs CH Control
+
+Compared CH results with data from non-Hispanic white cases in Mayo temporal cortex and ROSMAP dorsolateral prefrontal cortex datasets"	temporal cortex	"CH AD - 7M, 16F
+CH Control - 8M, 8F
+
+NHW ROSMAP AD - 113M, 241F
+NHW ROSMAP Control - 88M, 141F
+NHW Mayo AD - 31M, 49F
+NHW Mayo Control - 33M, 35F"	"CH AD - 23
+CH Control - 16
+
+NHW AD from ROSMAP - 354
+NHW Control from ROSMAP - 229
+NHW AD from Mayo - 80
+NHW Control from Mayo - 68"	"CH AD - 23
+CH Control - 16
+
+NHW AD from ROSMAP - 354
+NHW Control from ROSMAP - 229
+NHW AD from Mayo - 80
+NHW Control from Mayo - 68"	"CH AD - 79 (10.9)
+CH Control - 66.9 (11.8)
+
+NHW AD from ROSMAP - 90.1 (5.9)
+NHW Control from ROSMAP - 87 (7.2)
+NHW AD from Mayo - 82.6 (7.7)
+NHW Control from Mayo - 82.9 (8.4)"	"age > 50 years old, and neuropathologically defined LOAD or control without any neuropathological diagnosis
+
+all LOAD cases met the criteria of Braak stage ? 4 neurofibrillary pathological findings and also met the CERAD neuropathological criteria for definite LOAD"	Not reported	Total RNA was extracted after bead based homogenization and using Qiagen RNeasy Plus Mini Kit (Qiagen)	rRNA depletion	"CH AD - 4.2 (1.5)
+CH Control - 5.8 (1.5)
+
+NHW AD from ROSMAP - 7 (0.9)
+NHW Control from ROSMAP - 7.2 (1.1)
+NHW AD from Mayo - 8.6 (0.6)
+NHW Control from Mayo - 7.6 (1)"	"NEBNext Ultra RNA Library Prep Kit for Illumina (NEB, Ipswich, MA, USA)"	"CH AD - not reported
+CH Control - not reported
+
+NHW AD from ROSMAP - 7.6 hours (5.2)
+NHW Control from ROSMAP - 7.1 hours (4.1)
+NHW AD from Mayo -6.7 hours (4.3)
+NHW Control from Mayo - 6.5 hours (6.5)"	150	"Mean (SD)
+
+CH AD - 15.6 Million (3.8)
+CH Control - 16.2 Million (4.1) 
+
+NHW AD from ROSMAP - 26.5 Million (8.8)
+NHW Control from ROSMAP - 30.1 Million (13.5)
+NHW AD from Mayo - 45.4 Million (10)
+NHW Control from Mayo - 40.9 Million (11.1)"	paired-end	Illumina HiSeq	"CH and ROSMAP: STAR aligner (version 2.5.3a)
+
+Mayo: TopHat (version 2.0.12) and Bowtie (version 1.1.0)"	GRCh38.93	"CH and ROSMAP: RSEM (version 1.2.31)
+
+Mayo: Subread (version 1.4.4) "	"Not directly reported, but assume ENSEMBL release 93 given that the reference genome was reported as GRCh38.93"	"No discovery, quantification based on 
+reference only."	limma (version not reported)	"LOAD status, sequencing batch (brain bank source and flowcell included for Mayo), age, sex, RIN, postmortem interval (not available for the CH sample), percent of usable bases (not included for CH, as it was highly co-linear with RIN, and additional parameters were detrimental to model performance given small sample size), percent duplicated reads, median 3? bias, and percent of mapped ribosomal bases."	Any genes with a median expected count lower or equal to 15 were excluded	Benjamini-Hochberg	FDR significant threshold of q (adjusted p-value) < 0.05	"In CH - 2802 DEGs
+ To functionally characterize differentially expressed genes, we analyzed those significantly up- (n = 1335) and down-regulated (n = 1467) separately, using the FUMA-GWAS tool
+
+373 genes transcriptome-wide significant in all three cohorts, 364 (98%) with concordant directions of effect
+At uncorrected p < 0.05, 1441 genes were significant in all three analyses, 1360 (94%) with concordant directions of effect
+118 individual genes with significant effects in CH (pFDR < 0.05) and an opposite direction of effect in both Mayo and ROS/MAP
+
+ROSMAP 2066/17,665 significant genes
+Mayo 10,878/19,380 significant genes
+
+between CH and Mayo (1937 in common out of 2588 in CH = 75% replication; expected overlap = 1511, overlap p = 7.8 × 10?81)
+CH vs. Mayo (discordant (n = 5) and concordant (n = 11) gene sets
+between CH and ROS/MAP (450/2588 = 17% replication; expected overlap = 315, overlap p = 1.3 × 10?17"	1.7	Suitable for meta-analysis. They have a table with p-values for CH cohort.	" Robust regression modelling of LOAD status on gene transcript abundance (log2(CPM)) was adjusted for demographic and technical covariates, including a term for PSEN1 mutation carrier status. To ensure that PSEN1 status would not bias results, we performed principal components analyses on the CH expression dataset with and without the removal of co-variate effects, confirming that mutation carriers did not cluster separately from the rest of the sample
+
+RNA sequencing library preparation used NEBNext Ultra RNA Library Prep Kit for Illumina by following the manufacturer’s recommendations (NEB, Ipswich, MA, USA).
+
+RNA sequencing library preparation used NEBNext Ultra RNA Library Prep Kit for Illumina by following the manufacturer’s recommendations (NEB, Ipswich, MA, USA).
+
+The sequencing libraries were clustered on six lanes of a flowcell
+
+Image analysis and base calling were conducted by the HiSeq Control Software (HCS).
+
+Raw sequence data (.bcl files) generated from Illumina HiSeq were converted into fastq files and de-multiplexed using Illumina's bcl2fastq 2.17 software. One mismatch was allowed for index sequence identification. 
+
+Raw sequence data were processed identically for CH and ROS/MAP samples. FASTQ files from sequencing experiments were processed batch-wise using the same operational pipeline using FastQC (v0.11.5), Picard tools (v2.17.4), STAR aligner (v2.5.3a), and RSEM (v1.2.31) against the GRCh38.91 reference genome. For Mayo, base-calling was performed using Illumina’s RTA 1.17.21.3. FASTQ sequence reads were aligned to the human reference genome using TopHat 2.0.12 and Bowtie 1.1.0, and Subread 1.4.4 was used for gene counting. FastQC was used for quality control (QC) of raw sequence reads, and RSeQC was used for QC of mapped reads"	Felsky et al.
+Alterations of transcriptome signatures in head trauma-related neurodegenerative disorders.	10.1038/s41598-020-65916-y	"June 1st, 2020"	"CTE vs Control
+
+CTE/AD vs Control
+
+AD vs Control"	anterior temporal lobe 	"CTE - 8M
+
+CTE/AD - 6M
+
+AD - 4M, 6F
+
+Control - 6M, 4F"	Not reported	"CTE temporal lobe - 8
+
+CTE/AD temporal lobe - 6
+
+AD temporal lobe - 10
+
+Control temporal lobe - 10"	"CTE - range 66-93
+
+CTE/AD - range 61-91
+
+AD - range 57-96
+
+Control - range 63-89"	"Not reported
+
+(Sup. Table 1 shows all AD patients had Braak score and either NIA Reagan/CERAD score or NP change score.  CTE/AD patients had no score or the same scores used for AD patients.)"	"Age at onset of symptoms:
+
+CTE - range 25-76 (two NA)
+
+CTE/AD - range 52-83 (one NA)
+
+AD - 10 unknown
+
+Control - N/A"	Illumina TruSeq RNA sample preparation kit	polyA enrichment	Not reported	Illumina TruSeq RNA sample preparation kit	Not reported	101 bp	Averaged 45.76 million reads per sample	paired-end	Illumina HiSeq2000 platform	STAR aligner (no version reported) 2-pass method	GRCh37.p13	HTSeq (version not reported)	"Not directly reported in the article, but assume Gencode Release 19 annotation that is consistent with the reference genome GRCh37.p13 that was used."	"No discovery, quantification based on 
+reference only."	DESeq2 (version not reported)	Not reported	Not reported  	Benjamini-Hochberg	 | Foldchange?|?? 1.5 and q-value < 0.05 	"CTE vs Control - 3,028 up-regulated and 2,713 down-regulated DEGs
+
+CTE/AD vs Control - 2,586 up-regulated and 2,929 down-regulated DEGs
+
+ AD vs Control - 2,576 up-regulated and 2,382 down-regulated DEGs
+
+Upregulated DEGs in common between CTE and AD - 381
+Upregulated DEGs in common between CTE and CTE/AD - 542
+Upregulated DEGs in common between CTE and CTE/AD and AD - 1141
+Upregulated DEGs in common between CTE/AD and AD - 309
+
+Downregulated DEGs in common between CTE and AD - 312
+Downregulated DEGs in common between CTE and CTE/AD - 518
+Downregulated DEGs in common between CTE and CTE/AD and AD - 1428
+Downregulated DEGs in common between CTE/AD and AD - 200
+
+"	1.6	Not suitable for meta-analysis. Only provides table with p-values for DEGs.	"Through RNA sequencing, we obtained 9.24?Gb of RNA sequencing throughput on average and 84.17% of reads aligned to reference genome
+
+The FPKM levels were calculated to compare the expression levels of each disease
+
+Duplicated reads were removed by Picard Markduplicate and filtered reads were further processed for variant calling using the GATK, including insertion/deletion realignment, base quality score recalibration, and haplotypecaller. According to Ensembl gene set, we used HTSeq to count the reads aligned to each gene
+
+Cell type specific genes in common between CTE, CTE/AD, and AD:
+Neurons - 240 genes were commonly dysregulated
+Astrocyte - 20 commonly upregulated
+ Oligodendrocyte - 6 commonly upregulated
+Microglia - 21 commonly upregulated
+Endothelial-specific genes - 12 commonly upregulated"	Cho et al.
+Transcriptomic profiling of sporadic Alzheimer's disease patients.	10.1186/s13041-022-00963-2	"October 12th, 2022"	"Early onset sporadic AD (not caused by autosomal-dominant mutations).  Age of onset <60.
+
+Late onset AD.  Age of onset 70-80.
+
+Control"	primary visual cortex	"Early onset AD - 12M, 7F
+
+Late onset AD - 11M, 9F
+
+Control - 4M, 4F"	Not reported	"19 Early onset sporadic AD (not caused by autosomal dominant mutations)
+
+20 Late onset AD
+
+8 Control"	"Early onset AD - about 40-80
+
+Late onset AD - about 70-90
+
+Control - about 60-100
+
+Note: Actual numbers not reported - numbers above inferred from Fig 1A"	"Expert diagnosticians at the research centers reviewed subject clinical history, physical examinations, and neuropsychological tests at a consensus diagnosis conference. All individuals included in the dementia group received a clinical diagnosis of “probable AD,” “possible AD,” or “dementia, type unknown” according to the National Institute of Neurological and Communicative Disorders and Stroke and the AD and Related Disorders Association criteria
+
+Subjects with dementia underwent autopsy and were neuropathologically classified as DLB, DLBAD, AD, or PDD based on AD and LBD neuropathological changes. AD was defined by Braak stage IV, V, or VI and a CERAD plaque score of “moderate” or “frequent” but no LBD neuropathological changes. DLBAD was defined by the presence of both high-level AD neuropathological changes and limbic or neocortical stage LBD neuropathological changes."	"Age of Onset:
+
+Early onset AD < 60 years old.
+
+Late onset AD between 70 and 80  years old."	RNeasy Lipid Tissue Mini kit (Qiagen Cat. 74804) according to the manufacturer’s protocol	rRNA depletion	"Mention using RIN score to correct for degradation, but do not provide the actual RIN scores or any statistic"	" TruSeq Stranded Total RNA Library prep kit (Illumina, Cat. RS-122-2303) "	Not reported	75 bp	average of 100 million reads per sample	paired-end	 Illumina HiSeq4000	kallisto (version 0.46.1)	 GRCh38.p12	"kallisto (version 0.46.1)
+&
+tximport (version 1.8.0)"	"Not directly reported in the article, but assume Gencode Release 30 annotation that is consistent with the reference genome GRCh38.p12 that was used."	"No discovery, quantification based on 
+reference only."	edgeR (version not reported)	"Expression was corrected for sex using the removebatcheffects function in the limma R package.
+
+The voom function from the limma v3.44.1 R package was used to model the mean–variance trend and capture gene-specific weights, which were subsequently used to fit a linear model to the count data including sex and RIN score."	Genes were filtered by applying 10 counts per million (cpm) minimum threshold across all samples.	Benjamini-Hochberg	FDR-adjusted p-value < 0.05	"Not reported.  Early onset and late onset AD did not cluster together using gene expression.  They identified 4 clusters, 1 of which was excluded from further analysis.  There are volcano plots of the DEGS for the 3 clusters in Fig 1G, but no actual numbers are available."	1.9	Not suitable for meta-analysis. No table of differential gene expression analysis is provided.	"Libraries were prepared for RNA-Seq using the TruSeq Stranded Total RNA Library prep kit (Illumina, Cat. RS-122-2303) by the Ribo-Zero ribosomal RNA reduction method (Illumina)
+
+RNA-Seq data preprocessing was performed using the TrimGalore! package, removing sequencing adaptors and selecting for all paired-end reads above a quality score threshold (Phred Q?>?20)
+
+The R package tximport v1.8.0 was used to summarize kallisto transcript abundancies to the gene level. A DGEList object was created from gene-level read counts using the DGEList() function from edgeR v3.30.3. Gene-level count filtering was applied using the filterByExpr function in edgeR for inclusion in further analysis, followed by count normalization using the TMM (Trimmed Mean of M-values) method using the function calcNormFactors. Hierarchical clustering was applied using the factoextra R package to identify clusters of AD patients with similar transcriptional profiles.
+
+A contrast matrix was used to compare gene expression between the AD cluster subtypes and NDC samples, and empirical Bayesian statistics for the differential expression analysis was estimated using the eBayes function from limma
+
+To determine whether quality surrogate variable analysis (qSVA) would be useful to apply to the AD cluster subgroups to correct for degradation associated with RIN score, DEqual plots, a diagnostic plot that shows the correlation in differential expression t-statistics between AD-induced and degradation-induced differential expression, were generated to quantify degradation in different sample clusters
+
+This article was published as a ""micro report"" so many key details of results and methodology are missing."	Caldwell et al.
+Alzheimer's brains show inter-related changes in RNA and lipid metabolism.	10.1016/j.nbd.2017.06.008	"October, 2017"	"RUSH cohort:
+
+No Cognitive Impairment (NCI) + Low Braak staging 
+NCI + Med Braak 
+NCI + High Braak
+ 
+Mild Cognitive Impairment (MCI) + Low Braak
+MCI + Med Braak 
+MCI + High Braak 
+
+Dememted (Dem) + Low Braak 
+Dem + Med Braak 
+Dem + High Braak 
+
+NBB cohort:
+
+Healthy controls (Braak = 0) 
+Early pathology but no discernible dementia (NDWP) (Braak = 3-4) 
+Advanded AD pathology and cognitive decline (Braak = 5-6) "	"Rush cohort - temporal lobe
+
+NBB cohort - temporalis gyrus (superior - 20, medial - 1, inferior - 3)"	"Rush cohort - all males, no females
+
+NBB cohort - all males, no females"	Not reported	"RUSH cohort - 36 total, divided into groups below
+
+No Cognitive Impairment (NCI) + Low Braak staging - 4
+NCI + Med Braak - 4
+NCI + High Braak - 4
+Mild Cognitive Impairment (MCI) + Low Braak - 4
+MCI + Med Braak - 4
+MCI + High Braak - 4
+Dememted (Dem) + Low Braak - 4
+Dem + Med Braak - 4
+Dem + High Braak - 4
+
+NBB cohort - 24 total, divided into groups below
+
+Healthy controls (Braak = 0) - 8
+Early pathology but no discernible dementia (NDWP) (Braak = 3-4) - 8
+Advanded AD pathology and cognitive decline (Braak = 5-6) - 8"	"RUSH cohort:
+
+No Cognitive Impairment (NCI) + Low Braak staging - range 85-91
+NCI + Med Braak - range 86-90
+NCI + High Braak - range 86-90
+Mild Cognitive Impairment (MCI) + Low Braak - range 86-93
+MCI + Med Braak - range 86-89
+MCI + High Braak - range 86-91
+Dememted (Dem) + Low Braak - range 86-90
+Dem + Med Braak - range 86-90
+Dem + High Braak - range 86-90
+
+NBB cohort - overall range 71-96
+
+Numbers below are extrapolated from Sup. Figure 13 and are not exact
+Healthy controls (Braak = 0) - median ~82
+Early pathology but no discernible dementia (NDWP) (Braak = 3-4) - median ~87
+Advanded AD pathology and cognitive decline (Braak = 5-6) - median ~85"	"RUSH cohort pathology determined on Braak staging:
+Low pathology - Braak stage = 1-2
+Medium pathology - Braak stage = 3-4
+High pathology - Braak stae = 5-6
+
+NBB cohort pathology determined on Braak staging:
+Health control - Braak = 0
+Early pathology but no discernible dementia (NDWP) - Braak = 3-4
+Advanced AD pathology and cognitive decline - Braak = 5-6"	Not reported	"SPLIT RNA extraction kit (Lexogen GmbH, Vienna, Austria)"	" Sequencing data from the two cohorts were generated with two methods of library construction for RNA sequencing: 3?-QuantSeq, generating one most 3?-directed read per transcript, and SQUARE, identifying transcript variants with alternative 3?-UTR-APA by the 3?-segregation approach (scheme), based on 12 reverse-transcription sets using distinct poly(A)-adjacent 3?-primers
+
+
+SQUARE: rRNA depletion
+
+3?-QuantSeq: polyA enrichment"	"RUSH cohort - numbers extrapolated from Sup. Figure 13 and are not exact
+No Cognitive Impairment (NCI) + Low Braak staging - median ~6.75
+NCI + Med Braak - median ~7.0
+NCI + High Braak - median ~6.5
+Mild Cognitive Impairment (MCI) + Low Braak - median ~5.75
+MCI + Med Braak - median ~6.0
+MCI + High Braak - median ~6.25
+Dememted (Dem) + Low Braak - median ~6.25
+Dem + Med Braak - median ~6.15
+Dem + High Braak - median ~5.25
+
+NBB cohort - numbers extrapolated from Sup. Figure 13 and are not exact
+Healthy controls (Braak = 0) - median ~6.0
+Early pathology but no discernible dementia (NDWP) (Braak = 3-4) - median ~5.75
+Advanded AD pathology and cognitive decline (Braak = 5-6) - median ~5.25"	" Sequencing data from the two cohorts were generated with two methods of library construction for RNA sequencing: 3?-QuantSeq, generating one most 3?-directed read per transcript, and SQUARE, identifying transcript variants with alternative 3?-UTR-APA by the 3?-segregation approach (scheme), based on 12 reverse-transcription sets using distinct poly(A)-adjacent 3?-primers
+
+
+SQUARE: SQUARE™ service (Selective Quantitative Amplification of RNA) by Lexogen (Vienna, Austria)
+
+3?-QuantSeq: 3? QuantSeq Reverse kit (Lexogen GmbH, Vienna, Austria)"	"RUSH cohort - not reported
+
+NBB cohort - overall range 4:15 - 12:55
+
+NBB cohort - Numbers below are extrapolated from Sup. Figure 13 and are not exact
+
+Healthy controls (Braak = 0) - median ~7.0
+Early pathology but no discernible dementia (NDWP) (Braak = 3-4) - median ~6.5
+Advanded AD pathology and cognitive decline (Braak = 5-6) - median ~5.5"	"SQUARE: 75 bp
+
+3'-QuantSeq: 150 bp"	" SQUARE: 6 Million (STD = 2.0 Million) uniquely aligned 75 base pair (bp) single end reads, or approximately 70 Million (STD = 18 Million) total read counts when combining all 12 SQUARE fields.
+
+3' QuantSeq: Not reported.
+
+
+
+"	"
+
+SQUARE: single-end
+
+3'-QuantSeq: single-end"	"
+
+
+SQUARE: The SOLiD 5500xl System (Life Technologies Corp.).
+
+3'-QuantSeq: Illumina HiSeq 2500 (Illumina, Inc.)"	"
+SQUARE: Lifetech Lifescope (version 2.5.1)
+
+3'-QuantSeq: TopHat (version 2.0.11) Cufflinks (version 2.1.1)"	"SQUARE: GRGCh37/hg19
+
+3'-QuantSeq GRCh37/hg19"	"
+SQUARE: Lifetech Lifescope (version 2.5.1)
+
+3'-QuantSeq: HTSEQ (version not reported)"	GRCh37 ENSEMBL hg19 genome sequence and associated ENSEMBL transcript annotation	"No discovery, quantification based on 
+reference only."	"SQUARE and 3'-QuantSeq: One-Way-ANOVA or Two-Way-ANOVA was performed followed by post-hoc Tukey's test
+
+"	Not reported	"QuantSeq - Not reported
+
+Square Expression criteria were set to RPKM > 1 in at least one of the SQUARE fields, in at least 80% of the tested donor groups"	Not reported	ANOVA unadjusted p-value < 0.05 ((not corrected for multiple comparisons)	"From Fig 2
+RUSH AD patients DEGs changed with cognition - 1217
+RUSH AD patients DEGs changed with pathology - 570
+
+From Fig 2
+NBB AD patients DEGs - 362
+NBB non-demented with pathology patients DEGs - 336
+
+NBB Cohort - For associating the differential polyadenylation patterns with particular AD-related processes:
+98 genes showed pathology associated increased expression in AD and NDWP compared to controls
+45 genes showed pathology associated decreased expression in AD and NDWP compared to controls
+43 genes showed cognition associated increased expression in controls and NDWP compared to AD
+48 genes showed cognition associated decreased expression in controls and NDWP compared to AD
+140 genes showed potential regulatory increased expression in NDWP compared to AD and controls
+42 genes showed potential regulatory decreased expression in NDWP compared to AD and controls"	1.6	Not suitable for meta-analysis. No table of DEGs provided.	"We subjected polyadenylated RNA transcripts to RNA sequencing using either QuantSeq 3?-sequencing (for the first cohort), or multiple 3? primer variants-derived cDNA libraries (for the second cohort)
+
+Sequencing xsq files derived in both methods were processed with Liftech Lifescope software. Aligned bam files served to calculate RPKM values and detect APA sites, differential expression and enrichment results.
+
+RNA preparations from the NBB samples were reverse transcribed into full-length 3?-tagged cDNA and segregated through a SQUARE selective exponential amplification using one universal 5?-primer and 12 selective 3?-primers, each of which hybridizes at the junction of the mRNA body and poly(A) tail.
+
+***An additional group of AD diagnosed patients with early Braak 3–4 neuropathology and cognitive decline was added to the NBB groups. (I think these were used only for RT-PCR validation, but it is not very clear to me in the text)
+
+QuantSeq Tables of read counts per gene were generated from the alignments using the HTSEQ package.
+
+QuantSeq The minimal sequence base quality value selected for further processing was 20 (Phred score).  Progressive alignment method was selected. Only primary alignments were considered for gene counts and quantification. The minimal identity seed for alignment extension was 25 nucleotides.
+
+Square The automated SOLiD EZ Bead System and SOLiD EZ Bead E80 System Consumables (Life Technologies Corp.) were applied for the template preparation. The SOLiD 5500xl System and single-end chemistry for RNA sequencing was applied (Life Technologies Corp.).
+
+Square Transcripts with > 1 read per kilobase per million (RPKM) per SQUARE field were defined as being detected, whereas any RPKM below 1 was considered as reflecting leakiness of the transcription. An average of 6610 ± 1367 genes per field were detected across the 12 fields"	Barbash et al.
