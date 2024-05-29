@@ -1,0 +1,83 @@
+Bootstrap: docker
+From: ubuntu:22.04
+
+%post
+
+        ## Make Shell Noninteractive ##
+        DEBIAN_FRONTEND=noninteractive
+
+	apt-get update && apt-get -y install wget git time lsb-release sudo gnupg curl unzip g++ make rsync vim locales libssl-dev \
+		libcurl4-openssl-dev libxml2-dev libnlopt-dev cmake libblas-dev liblapack-dev gfortran libfreetype6-dev libfribidi-dev libharfbuzz-dev \
+		pandoc zlib1g-dev libicu-dev libfontconfig1-dev libjpeg-dev libpng-dev libtiff-dev libbz2-dev liblzma-dev libzmq3-dev libtiff5-dev \
+		build-essential
+
+        ## Set timezone and language for container ##
+        ln -fs /usr/share/zoneinfo/America/New_York /etc/localtime
+
+        export LANGUAGE=en_US.UTF-8
+        export LANG=en_US.UTF-8
+        export LC_ALL=en_US.UTF-8
+        sudo locale-gen en_US.UTF-8
+
+        echo 'export LANGUAGE="en_US.UTF8"' >> $SINGULARITY_ENVIRONMENT
+        echo 'export LANG="en_US.UTF8"' >> $SINGULARITY_ENVIRONMENT
+        echo 'export LC_ALL="en_US.UTF8"' >> $SINGULARITY_ENVIRONMENT
+
+	## Install R ##
+        sudo apt install -y --no-install-recommends software-properties-common dirmngr
+        wget -qO- https://cloud.r-project.org/bin/linux/ubuntu/marutter_pubkey.asc | sudo gpg --dearmor -o /usr/share/keyrings/r-project.gpg
+        echo "deb [signed-by=/usr/share/keyrings/r-project.gpg] https://cloud.r-project.org/bin/linux/ubuntu jammy-cran40/" | sudo tee -a /etc/apt/sources.list.d/r-project.list
+        sudo apt update
+        sudo apt install -y r-base r-base-core r-recommended r-base-dev
+
+
+        ## Install R Packages: tidyverse, BiocManager, RNASeqPower, Bambu##
+	R --slave -e 'install.packages("tidyverse")'
+	R --slave -e 'install.packages("svglite")'
+        R --slave -e 'install.packages("BiocManager")'
+	R --slave -e 'BiocManager::install("EnhancedVolcano")'
+	R --slave -e 'install.packages("UpSetR")'
+
+%test
+		
+	## Check if installations are on path and/or display their versions ##
+    	conda --version
+	python --version
+	pip --version
+	R --version
+	bedtools --version
+	samtools --version
+	mafft --version
+	blastx -version
+	magicblast -version
+
+	
+
+	
+	## Check R Libraries
+	R --slave -e 'library("svglite")'
+	R --slave -e 'library("tidyverse")'
+	R --slave -e 'library("UpSetR")'
+	R --slave -e 'library("EnhancedVolcano")'
+
+%labels
+	author Bernardo Aguzzoli Heberle
+	version v0.1.0
+
+%help
+
+	Software included in the container are:
+
+	R==4.4.0
+		tidyverse==2.0.0
+		EnhancedVolcano==1.22.0
+		UpSetR==1.4.0
+
+        NOTE THAT VERSIONS OF THE SOFTWARE INSTALLED MAY CHANGE THROUGH TIME IF YOU BUILD THE IMAGE FROM THE RECIPE FILE.
+        TO GET THE ORIGINAL VERSION OF THIS CONTAINER PULL IT FROM THE SINGULARITY LIB WITH THE COMMAND:
+
+	singularity pull --arch amd64 library://ebbertlab/systematic_review_r_container/systematic_review_r_container:sha256.546a0b649b04e0ad798376d4c8038adb41a6cdbb3a807533a43a338ef21fbd15	
+	
+	For more information about the use of this singularity container access: https://github.com/UK-SBCoA-EbbertLab/AD_bulk_RNAseq_review 
+
+
