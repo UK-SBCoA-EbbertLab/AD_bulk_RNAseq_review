@@ -10,4 +10,4 @@ PROCESSFILE ../../data/processed_data/frontal_lobe/MSSB_BA10_FL.tsv
 PROCESSFILE ../../data/processed_data/frontal_lobe/MSSB_BA44_FL.tsv
 PROCESSFILE ../../data/processed_data/frontal_lobe/ROSMAP_FL.tsv
 
-ANALYZE
+ANALYZE HETEROGENEITY

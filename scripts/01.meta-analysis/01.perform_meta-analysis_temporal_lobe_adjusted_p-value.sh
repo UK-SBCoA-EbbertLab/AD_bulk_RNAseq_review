@@ -9,4 +9,4 @@ PROCESSFILE ../../data/processed_data/temporal_lobe/MAYO_TL.tsv
 PROCESSFILE ../../data/processed_data/temporal_lobe/MSSB_BA22_TL.tsv
 PROCESSFILE ../../data/processed_data/temporal_lobe/MSSB_BA36_TL.tsv
 
-ANALYZE
+ANALYZE HETEROGENEITY

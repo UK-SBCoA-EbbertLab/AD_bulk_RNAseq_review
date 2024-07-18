@@ -1,0 +1,9 @@
+Statistic	temporal_lobe_i_squared_statistics	frontal_lobe_i_squared_statistics
+count	29208.0	30008.0
+mean	27.03978362092578	9.660977072780591
+std	32.8160655569976	19.964154971486728
+min	0.0	0.0
+25%	0.0	0.0
+50%	0.0	0.0
+75%	58.7	0.5
+max	98.1	98.5
