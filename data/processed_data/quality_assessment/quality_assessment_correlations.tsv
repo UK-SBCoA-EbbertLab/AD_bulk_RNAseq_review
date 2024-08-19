@@ -1,0 +1,12 @@
+	X	Y	Spearman Coefficient	R Squared	Spearman P-value
+0	year	sample_size 	0.09	0.01	0.6764732276769363
+1	year	sex_and_ethnicity	0.61	0.37	0.0012002577747465088
+2	year	ad_diagnose_criteria	0.3	0.09	0.1482996348105648
+3	year	control_matching	-0.08	0.01	0.7025177284831715
+4	year	transcript_level_analysis	-0.41	0.16	0.04432987504255543
+5	year	results_validation	0.06	0.0	0.7851920676583093
+6	year	sequencing_depth	-0.24	0.06	0.2444480273336429
+7	year	statistical_rigor	0.43	0.19	0.031371242264049956
+8	year	data_availability	0.02	0.0	0.913613093014077
+9	year	reproducibility	-0.05	0.0	0.8096942626253012
+10	year	average_score_per_study	0.22	0.05	0.2935437973284088
