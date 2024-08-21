@@ -20,5 +20,5 @@
 
 ## Data availability
 
-The data that is not readily available in the tables and supplementary tables of the publication can be found in this Zenodo reporitory: https://zenodo.org/records/12734981
+The data that is not readily available in the tables and supplementary tables of the publication can be found in this Zenodo reporitory: https://zenodo.org/records/13356006
 
