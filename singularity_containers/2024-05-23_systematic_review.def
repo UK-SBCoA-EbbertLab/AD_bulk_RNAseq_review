@@ -34,8 +34,8 @@ From: ubuntu:22.04
 	conda config --add channels conda-forge
 	conda install python=3.10.11
 
-        ## Install Python Packages - Numpy, Pandas,Pysam, Regex, MatPlotLib, Seaborn, MatPlotLib_Venn, WordCloud, Plotly, Jupyter Notebooks, SuperVenn, PyEnsembl, MyGene, BioMart, OpenPyxl ##
-        pip install numpy pandas pysam regex matplotlib seaborn matplotlib_venn wordcloud plotly notebook supervenn pyensembl mygene biomart openpyxl aiohttp asyncio
+        ## Install Python Packages - Numpy, Pandas,Pysam, Regex, MatPlotLib, Seaborn, MatPlotLib_Venn, WordCloud, Plotly, Jupyter Notebooks, SuperVenn, PyEnsembl, MyGene, BioMart, OpenPyxl StatsModels ##
+        pip install numpy pandas pysam regex matplotlib seaborn matplotlib_venn wordcloud plotly notebook supervenn pyensembl mygene biomart openpyxl aiohttp asyncio statsmodels
 	
 	## Install METAL ## 
 	git clone https://github.com/statgen/METAL.git
@@ -88,13 +88,14 @@ From: ubuntu:22.04
 		openpyxl==3.1.2
 		aiohttp==3.9.5 
 		asyncio==3.4.3	
+		statsmodels==0.14.2
 	METAL==2020-05-05
 			
 
         NOTE THAT VERSIONS OF THE SOFTWARE INSTALLED MAY CHANGE THROUGH TIME IF YOU BUILD THE IMAGE FROM THE RECIPE FILE.
         TO GET THE ORIGINAL VERSION OF THIS CONTAINER PULL IT FROM THE SINGULARITY LIB WITH THE COMMAND:
 
-	singularity pull --arch amd64 library://ebbertlab/systematic_review/systematic_review:sha256.5cb154ad3c039ecd57de5b1b7e160b148518b144338793aa5908d1aa7056e278	
+	singularity pull --arch amd64 library://ebbertlab/systematic_review/systematic_review:sha256.5405736a1acf616da22de9d95a1728445c7183e99ebd8103d74bd27f0274fa8e
 	
 	For more information about the use of this singularity container access: https://github.com/UK-SBCoA-EbbertLab/AD_bulk_RNAseq_review
 
