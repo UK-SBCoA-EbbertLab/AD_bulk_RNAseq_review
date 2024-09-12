@@ -1,10 +1,12 @@
 gene_id	gene_symbol	regulation_temporal	regulation_frontal
 ENSG00000111961	SASH1	Upregulated in AD	Upregulated in AD
+ENSG00000134759	ELP2	Downregulated in AD	Downregulated in AD
 ENSG00000133789	SWAP70	Upregulated in AD	Upregulated in AD
 ENSG00000117298	ECE1	Upregulated in AD	Upregulated in AD
 ENSG00000166669	ATF7IP2	Downregulated in AD	Downregulated in AD
 ENSG00000092820	EZR	Upregulated in AD	Upregulated in AD
 ENSG00000131095	GFAP	Upregulated in AD	Upregulated in AD
+ENSG00000100906	NFKBIA	Upregulated in AD	Upregulated in AD
 ENSG00000088836	SLC4A11	Upregulated in AD	Upregulated in AD
 ENSG00000171388	APLN	Upregulated in AD	Upregulated in AD
 ENSG00000154783	FGD5	Upregulated in AD	Upregulated in AD
@@ -12,8 +14,10 @@ ENSG00000021645	NRXN3	Downregulated in AD	Downregulated in AD
 ENSG00000175287	PHYHD1	Upregulated in AD	Upregulated in AD
 ENSG00000135736	CCDC102A	Upregulated in AD	Upregulated in AD
 ENSG00000149451	ADAM33	Upregulated in AD	Upregulated in AD
+ENSG00000111181	SLC6A12	Upregulated in AD	Upregulated in AD
 ENSG00000148204	CRB2	Upregulated in AD	Upregulated in AD
 ENSG00000188783	PRELP	Upregulated in AD	Upregulated in AD
+ENSG00000104415	WISP1	Upregulated in AD	Upregulated in AD
 ENSG00000100227	POLDIP3	Upregulated in AD	Upregulated in AD
 ENSG00000170439	METTL7B	Upregulated in AD	Upregulated in AD
 ENSG00000087116	ADAMTS2	Upregulated in AD	Upregulated in AD
@@ -21,10 +25,12 @@ ENSG00000204219	TCEA3	Upregulated in AD	Upregulated in AD
 ENSG00000144057	ST6GAL2	Downregulated in AD	Downregulated in AD
 ENSG00000158186	MRAS	Upregulated in AD	Upregulated in AD
 ENSG00000196154	S100A4	Upregulated in AD	Upregulated in AD
+ENSG00000125733	TRIP10	Upregulated in AD	Upregulated in AD
 ENSG00000142227	EMP3	Upregulated in AD	Upregulated in AD
 ENSG00000172935	MRGPRF	Upregulated in AD	Upregulated in AD
 ENSG00000128564	VGF	Downregulated in AD	Downregulated in AD
 ENSG00000145358	DDIT4L	Upregulated in AD	Upregulated in AD
+ENSG00000112039	FANCE	Upregulated in AD	Upregulated in AD
 ENSG00000148841	ITPRIP	Upregulated in AD	Upregulated in AD
 ENSG00000197256	KANK2	Upregulated in AD	Upregulated in AD
 ENSG00000143772	ITPKB	Upregulated in AD	Upregulated in AD
@@ -34,4 +40,6 @@ ENSG00000134802	SLC43A3	Upregulated in AD	Upregulated in AD
 ENSG00000147571	CRH	Downregulated in AD	Downregulated in AD
 ENSG00000159176	CSRP1	Upregulated in AD	Upregulated in AD
 ENSG00000074219	TEAD2	Upregulated in AD	Upregulated in AD
+ENSG00000179241	LDLRAD3	Upregulated in AD	Upregulated in AD
 ENSG00000124942	AHNAK	Upregulated in AD	Upregulated in AD
+ENSG00000157833	GAREM2	Upregulated in AD	Upregulated in AD
