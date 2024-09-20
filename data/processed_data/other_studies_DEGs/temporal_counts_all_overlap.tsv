@@ -1,0 +1,572 @@
+gene_id	gene_symbol	count	studies	regulation
+ENSG00000107779	BMPR1A	5	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000115107	STEAP3	5	Cho_et_al, Felsky_et_al, Li_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000119681	LTBP2	5	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000163132	MSX1	5	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000188783	PRELP	5	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000196154	S100A4	5	Cho_et_al, Das_et_al, Li_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000197256	KANK2	5	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000003989	SLC7A2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000026025	VIM	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000074219	TEAD2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000087116	ADAMTS2	4	Das_et_al, Li_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000088836	SLC4A11	4	Das_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000092969	TGFB2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000100906	NFKBIA	4	Cho_et_al, Das_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000106351	AGFG2	4	Das_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000106624	AEBP1	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000111181	SLC6A12	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000111907	TPD52L1	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000119729	RHOQ	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000122986	HVCN1	4	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000123094	RASSF8	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000125733	TRIP10	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000128602	SMO	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000131095	GFAP	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000133195	SLC39A11	4	Cho_et_al, Das_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000134769	DTNA	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000135736	CCDC102A	4	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000137198	GMPR	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000142173	COL6A2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000142227	EMP3	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000143127	ITGA10	4	Cho_et_al, Das_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000143772	ITPKB	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000145358	DDIT4L	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000146233	CYP39A1	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000149451	ADAM33	4	Felsky_et_al, Li_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000157833	GAREM2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000158186	MRAS	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000159176	CSRP1	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000162645	GBP2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000162944	RFTN2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000163297	ANTXR2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000164692	COL1A2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000164949	GEM	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000166483	WEE1	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000166592	RRAD	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000168743	NPNT	4	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000172935	MRGPRF	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000173641	HSPB7	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000175287	PHYHD1	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000182253	SYNM	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000183255	PTTG1IP	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000184005	ST6GALNAC3	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000186298	PPP1CC	4	Cho_et_al, Das_et_al, Felsky_et_al, Piras_et_al	Upregulated in AD
+ENSG00000188039	NWD1	4	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000000003	TSPAN6	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000011465	DCN	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000018408	WWTR1	3	Cho_et_al, Li_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000034677	RNF19A	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000049323	LTBP1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000052850	ALX4	3	Cho_et_al, Das_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000054598	FOXC1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000055208	TAB2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000056736	IL17RB	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000069702	TGFBR3	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000075420	FNDC3B	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000078114	NEBL	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000078549	ADCYAP1R1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000079335	CDC14A	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000082781	ITGB5	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000085063	CD59	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000087510	TFAP2C	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000091436	MAP3K20	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000092607	TBX15	3	Cho_et_al, Das_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000092820	EZR	3	Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000095637	SORBS1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000101849	TBL1X	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000102174	PHEX	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000102218	RP2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000102547	CAB39L	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000103888	CEMIP	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000104324	CPQ	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000105855	ITGB8	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000109320	NFKB1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000111058	ACSS3	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000111783	RFX4	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000111961	SASH1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000112837	TBX18	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000112936	C7	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000113140	SPARC	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000113657	DPYSL3	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000115825	PRKD3	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000117280	RAB29	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000117298	ECE1	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000117318	ID3	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000120306	CYSTM1	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000120708	TGFBI	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000121039	RDH10	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000122786	CALD1	3	Cho_et_al, Das_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000124942	AHNAK	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000128791	TWSG1	3	Cho_et_al, Felsky_et_al, Piras_et_al	Upregulated in AD
+ENSG00000129116	PALLD	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000129493	HEATR5A	3	Cho_et_al, Felsky_et_al, Piras_et_al	Upregulated in AD
+ENSG00000129675	ARHGEF6	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000132256	TRIM5	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000132357	CARD6	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000133065	SLC41A1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000133789	SWAP70	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000134250	NOTCH2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000134294	SLC38A2	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000135862	LAMC1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000137509	PRCP	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000137693	YAP1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000138193	PLCE1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000139350	NEDD1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000141639	MAPK4	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000143337	TOR1AIP1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000143970	ASXL2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000145012	LPP	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000145423	SFRP2	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000148204	CRB2	3	Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000148604	RGR	3	Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000148848	ADAM12	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000150457	LATS2	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000150907	FOXO1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000151632	AKR1C2	3	Das_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000152137	HSPB8	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000152661	GJA1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000152990	ADGRA3	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000154188	ANGPT1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000154274	C4orf19	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000154721	JAM2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000155324	GRAMD2B	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000155760	FZD7	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000162909	CAPN2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000163110	PDLIM5	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000163346	PBXIP1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000163349	HIPK1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000164188	RANBP3L	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000165449	SLC16A9	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000165474	GJB2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000165806	CASP7	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000165895	ARHGAP42	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000166482	MFAP4	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000167081	PBX3	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000167244	IGF2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000168679	SLC16A4	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000168938	PPIC	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000170439	METTL7B	3	Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000172380	GNG12	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000172493	AFF1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000173068	BNC2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000173530	TNFRSF10D	3	Cho_et_al, Das_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000174099	MSRB3	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000174628	IQCK	3	Cho_et_al, Felsky_et_al, Piras_et_al	Upregulated in AD
+ENSG00000177119	ANO6	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000179604	CDC42EP4	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000182326	C1S	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000182718	ANXA2	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000184384	MAML2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000185591	SP1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000185650	ZFP36L1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000187634	SAMD11	3	Das_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000188488	SERPINA5	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000196935	SRGAP1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000198774	RASSF9	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000203952	CCDC160	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000204070	SYS1	3	Cho_et_al, Felsky_et_al, Piras_et_al	Upregulated in AD
+ENSG00000204219	TCEA3	3	Das_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000205929	C21orf62	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000213694	S1PR3	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000254535	PABPC4L	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000006327	TNFRSF12A	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000008405	CRY1	2	Cho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000010810	FYN	2	Cho_et_al, Felsky_et_al	Upregulated in AD
+ENSG00000016391	CHDH	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000031081	ARHGAP31	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000046604	DSG2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000067082	KLF6	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000070778	PTPN21	2	Cho_et_al, Felsky_et_al	Upregulated in AD
+ENSG00000076248	UNG	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000077942	FBLN1	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000082175	PGR	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000085276	MECOM	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000088827	SIGLEC1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000091409	ITGA6	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000091879	ANGPT2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000094963	FMO2	2	Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000096696	DSP	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000099937	SERPIND1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000100227	POLDIP3	2	Cho_et_al, Felsky_et_al	Upregulated in AD
+ENSG00000100234	TIMP3	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000103852	TTC23	2	Cho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000106809	OGN	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000106823	ECM2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000108950	FAM20A	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000110422	HIPK3	2	Cho_et_al, Felsky_et_al	Upregulated in AD
+ENSG00000112175	BMP5	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000112214	FHL5	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000112378	PERP	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000113088	GZMK	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000113212	PCDHB7	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000113658	SMAD5	2	Cho_et_al, Felsky_et_al	Upregulated in AD
+ENSG00000114638	UPK1B	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000114698	PLSCR4	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000115267	IFIH1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000115461	IGFBP5	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000116096	SPR	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000116132	PRRX1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000116678	LEPR	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000116729	WLS	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000116815	CD58	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000119139	TJP2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000119147	C2orf40	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000119900	OGFRL1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000120690	ELF1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000122176	FMOD	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000123595	RAB9A	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000124107	SLPI	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000124749	COL21A1	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000126778	SIX1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000127954	STEAP4	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000129657	SEC14L1	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000132514	CLEC10A	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000132840	BHMT2	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000133561	GIMAP6	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000134569	LRP4	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000134762	DSC3	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000134802	SLC43A3	2	Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000134817	APLNR	2	Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000135046	ANXA1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000136436	CALCOCO2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000136826	KLF4	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000137819	PAQR5	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000138722	MMRN1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000138798	EGF	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000138823	MTTP	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000142494	SLC47A1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000143603	KCNN3	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000144749	LRIG1	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000144909	OSBPL11	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000145390	USP53	2	Cho_et_al, Felsky_et_al	Upregulated in AD
+ENSG00000145777	TSLP	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000147606	SLC26A7	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000148482	SLC39A12	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000148498	PARD3	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000148841	ITPRIP	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000149573	MPZL2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000151655	ITIH2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000152936	LMNTD1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000153162	BMP6	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000154380	ENAH	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000156535	CD109	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000156925	ZIC3	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000157510	AFAP1L1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000157551	KCNJ15	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000158246	TENT5B	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000158467	AHCYL2	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000159403	C1R	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000162733	DDR2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000162998	FRZB	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000163513	TGFBR2	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000163687	DNASE1L3	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000163735	CXCL5	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000164117	FBXO8	2	Cho_et_al, Felsky_et_al	Upregulated in AD
+ENSG00000164318	EGFLAM	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000164707	SLC13A4	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000164761	TNFRSF11B	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000165626	BEND7	2	Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000166535	A2ML1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000168077	SCARA3	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000168079	SCARA5	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000168229	PTGDR	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000168542	COL3A1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000168610	STAT3	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000169604	ANTXR1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000170577	SIX2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000171885	AQP4	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000172164	SNTB1	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000173706	HEG1	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000174032	SLC25A30	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000174059	CD34	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000174306	ZHX3	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000175591	P2RY2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000176387	HSD11B2	2	Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000176692	FOXC2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000178104	PDE4DIP	2	Cho_et_al, Felsky_et_al	Upregulated in AD
+ENSG00000178202	KDELC2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000179023	KLHDC7A	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000179241	LDLRAD3	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000180447	GAS1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000181826	RELL1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000182107	TMEM30B	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000183421	RIPK4	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000183615	FAM167B	2	Marques-Coelho_et_al, Piras_et_al	Upregulated in AD
+ENSG00000186564	FOXD2	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000187079	TEAD1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000187134	AKR1C1	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000187151	ANGPTL5	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000187720	THSD4	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000189184	PCDH18	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000196616	ADH1B	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000198523	PLN	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000204556	AL450124.1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000205403	CFI	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000205835	GMNC	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000205978	NYNRIN	2	Felsky_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000213144	AC084880.1	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000233670	PIRT	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000239473	RPL7P38	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000241644	INMT	2	Cho_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000019169	MARCO	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000027644	INSRR	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000035403	VCL	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000053328	METTL24	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000065308	TRAM2	1	Felsky_et_al	Upregulated in AD
+ENSG00000068001	HYAL2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000074964	ARHGEF10L	1	Piras_et_al	Upregulated in AD
+ENSG00000081818	PCDHB4	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000084676	NCOA1	1	Felsky_et_al	Upregulated in AD
+ENSG00000096433	ITPR3	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000104267	CA2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000104415	WISP1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000109625	CPZ	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000111341	MGP	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000111886	GABRR2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000112164	GLP1R	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000112499	SLC22A2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000113494	PRLR	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000114126	TFDP2	1	Felsky_et_al	Upregulated in AD
+ENSG00000115170	ACVR1	1	Felsky_et_al	Upregulated in AD
+ENSG00000115596	WNT6	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000117122	MFAP2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000118007	STAG1	1	Cho_et_al	Upregulated in AD
+ENSG00000120149	MSX2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000120885	CLU	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000123374	CDK2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000126218	F10	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000126767	ELK1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000128886	ELL3	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000134324	LPIN1	1	Felsky_et_al	Upregulated in AD
+ENSG00000137962	ARHGAP29	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000138061	CYP1B1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000138376	BARD1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000138772	ANXA3	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000139209	SLC38A4	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000139514	SLC7A1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000139946	PELI2	1	Cho_et_al	Upregulated in AD
+ENSG00000141052	MYOCD	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000144837	PLA1A	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000144891	AGTR1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000145907	G3BP1	1	Cho_et_al	Upregulated in AD
+ENSG00000146005	PSD2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000146013	GFRA3	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000147257	GPC3	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000149452	SLC22A8	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000152779	SLC16A12	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000152818	UTRN	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000154783	FGD5	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000158825	CDA	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000162520	SYNC	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000163359	COL6A3	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000163421	PROK2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000163762	TM4SF18	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000163817	SLC6A20	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000164035	EMCN	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000164283	ESM1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000165097	KDM1B	1	Felsky_et_al	Upregulated in AD
+ENSG00000165185	KIAA1958	1	Cho_et_al	Upregulated in AD
+ENSG00000165633	VSTM4	1	Felsky_et_al	Upregulated in AD
+ENSG00000166265	CYYR1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000166426	CRABP1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000166527	CLEC4D	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000166831	RBPMS2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000168671	UGT3A2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000170262	MRAP	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000170365	SMAD1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000170801	HTRA3	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000170876	TMEM43	1	Felsky_et_al	Upregulated in AD
+ENSG00000171345	KRT19	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000171388	APLN	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000172716	SLFN11	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000173269	MMRN2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000173376	NDNF	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000173714	WFIKKN2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000174226	SNX31	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000179277	MEIS3P1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000179954	SSC5D	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000180008	SOCS4	1	Cho_et_al	Upregulated in AD
+ENSG00000183723	CMTM4	1	Felsky_et_al	Upregulated in AD
+ENSG00000185585	OLFML2A	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000186326	RGS9BP	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000187736	NHEJ1	1	Felsky_et_al	Upregulated in AD
+ENSG00000188428	BLOC1S5	1	Felsky_et_al	Upregulated in AD
+ENSG00000198542	ITGBL1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000198743	SLC5A3	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000211677	IGLC2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000214814	FER1L6	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000218819	TDRD15	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000251493	FOXD1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000261040	WFDC21P	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000261371	PECAM1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000269113	TRABD2B	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000071127	WDR1	0		Upregulated in AD
+ENSG00000170145	SIK2	0		Upregulated in AD
+ENSG00000125686	MED1	0		Upregulated in AD
+ENSG00000084073	ZMPSTE24	0		Upregulated in AD
+ENSG00000197771	MCMBP	0		Upregulated in AD
+ENSG00000138796	HADH	0		Upregulated in AD
+ENSG00000107201	DDX58	0		Upregulated in AD
+ENSG00000067113	PLPP1	0		Upregulated in AD
+ENSG00000165006	UBAP1	0		Upregulated in AD
+ENSG00000145041	DCAF1	0		Upregulated in AD
+ENSG00000198876	DCAF12	0		Upregulated in AD
+ENSG00000140443	IGF1R	0		Upregulated in AD
+ENSG00000148484	RSU1	0		Upregulated in AD
+ENSG00000094916	CBX5	0		Upregulated in AD
+ENSG00000112039	FANCE	0		Upregulated in AD
+ENSG00000100014	SPECC1L	0		Upregulated in AD
+ENSG00000089169	RPH3A	5	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000128683	GAD1	5	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000145882	PCYOX1L	5	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000059588	TARBP1	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000111218	PRMT8	4	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000131650	KREMEN2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000149054	ZNF215	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000149809	TM7SF2	4	Cho_et_al, Das_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000178947	SMIM10L2A	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000188730	VWC2	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000204843	DCTN1	4	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000006128	TAC1	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000021645	NRXN3	3	Felsky_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000086717	PPEF1	3	Cho_et_al, Marques-Coelho_et_al, Piras_et_al	Downregulated in AD
+ENSG00000099622	CIRBP	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000099624	ATP5F1D	3	Cho_et_al, Das_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000099866	MADCAM1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000101460	MAP1LC3A	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000116783	TNNI3K	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000128564	VGF	3	Cho_et_al, Das_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000128596	CCDC136	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000131067	GGT7	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000141433	ADCYAP1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000144583	MARCH4	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000149527	PLCH2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000158526	TSR2	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000162975	KCNF1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000170899	GSTA4	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000171189	GRIK1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000174939	ASPHD1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000184056	VPS33B	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000214338	SOGA3	3	Felsky_et_al, Li_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000225968	ELFN1	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000239382	ALKBH6	3	Cho_et_al, Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000033627	ATP6V0A1	2	Cho_et_al, Felsky_et_al	Downregulated in AD
+ENSG00000068400	GRIPAP1	2	Cho_et_al, Felsky_et_al	Downregulated in AD
+ENSG00000100983	GSS	2	Cho_et_al, Felsky_et_al	Downregulated in AD
+ENSG00000101222	SPEF1	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000101654	RNMT	2	Felsky_et_al, Piras_et_al	Downregulated in AD
+ENSG00000107223	EDF1	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000109255	NMU	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000119596	YLPM1	2	Li_et_al, Piras_et_al	Downregulated in AD
+ENSG00000128298	BAIAP2L2	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000133265	HSPBP1	2	Cho_et_al, Felsky_et_al	Downregulated in AD
+ENSG00000135119	RNFT2	2	Cho_et_al, Felsky_et_al	Downregulated in AD
+ENSG00000136895	GARNL3	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000138101	DTNB	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000139910	NOVA1	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000143156	NME7	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000144057	ST6GAL2	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000144355	DLX1	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000146221	TCTE1	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000146469	VIP	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000147571	CRH	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000152154	TMEM178A	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000152467	ZSCAN1	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000157005	SST	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000158792	SPATA2L	2	Cho_et_al, Felsky_et_al	Downregulated in AD
+ENSG00000159239	AC005041.1	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000159674	SPON2	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000160226	CFAP410	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000160781	PAQR6	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000163728	TTC14	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000166669	ATF7IP2	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000166793	YPEL4	2	Cho_et_al, Felsky_et_al	Downregulated in AD
+ENSG00000167011	NAT16	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000167113	COQ4	2	Cho_et_al, Felsky_et_al	Downregulated in AD
+ENSG00000167515	TRAPPC2L	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000167792	NDUFV1	2	Cho_et_al, Felsky_et_al	Downregulated in AD
+ENSG00000168081	PNOC	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000168453	HR	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000171811	CFAP46	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000172824	CES4A	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000175575	PAAF1	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000179774	ATOH7	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000180828	BHLHE22	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000181195	PENK	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000185615	PDIA2	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000187848	P2RX2	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000188747	NOXA1	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000188766	SPRED3	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000189227	C15orf61	2	Das_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000198208	RPS6KL1	2	Cho_et_al, Felsky_et_al	Downregulated in AD
+ENSG00000226435	ANKRD18DP	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000234420	ZNF37BP	2	Felsky_et_al, Piras_et_al	Downregulated in AD
+ENSG00000241563	CORT	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000250067	YJEFN3	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000257501	AC007424.1	2	Cho_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000278535	DHRS11	2	Felsky_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000006015	REX1BD	1	Cho_et_al	Downregulated in AD
+ENSG00000051009	FAM160A2	1	Piras_et_al	Downregulated in AD
+ENSG00000063761	ADCK1	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000070388	FGF22	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000076344	RGS11	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000100360	IFT27	1	Felsky_et_al	Downregulated in AD
+ENSG00000116353	MECR	1	Cho_et_al	Downregulated in AD
+ENSG00000119203	CPSF3	1	Das_et_al	Downregulated in AD
+ENSG00000119283	TRIM67	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000120875	DUSP4	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000125508	SRMS	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000126214	KLC1	1	Cho_et_al	Downregulated in AD
+ENSG00000127564	PKMYT1	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000127831	VIL1	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000130347	RTN4IP1	1	Cho_et_al	Downregulated in AD
+ENSG00000130414	NDUFA10	1	Felsky_et_al	Downregulated in AD
+ENSG00000135972	MRPS9	1	Felsky_et_al	Downregulated in AD
+ENSG00000136936	XPA	1	Felsky_et_al	Downregulated in AD
+ENSG00000140557	ST8SIA2	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000143224	PPOX	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000144893	MED12L	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000146540	C7orf50	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000146963	LUC7L2	1	Felsky_et_al	Downregulated in AD
+ENSG00000148341	SH3GLB2	1	Felsky_et_al	Downregulated in AD
+ENSG00000148704	VAX1	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000154265	ABCA5	1	Felsky_et_al	Downregulated in AD
+ENSG00000162729	IGSF8	1	Cho_et_al	Downregulated in AD
+ENSG00000171723	GPHN	1	Piras_et_al	Downregulated in AD
+ENSG00000175054	ATR	1	Piras_et_al	Downregulated in AD
+ENSG00000187186	AL162231.1	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000189007	ADAT2	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000196123	KIAA0895L	1	Felsky_et_al	Downregulated in AD
+ENSG00000205542	TMSB4X	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000214765	SEPT7P2	1	Felsky_et_al	Downregulated in AD
+ENSG00000231359	AC072052.1	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000234409	CCDC188	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000235453	SMIM27	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000244560	AC004890.2	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000267623	AC005357.2	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000134759	ELP2	0		Downregulated in AD
+ENSG00000240038	AMY2B	0		Downregulated in AD
+ENSG00000256537	SMIM10L1	0		Downregulated in AD
+ENSG00000137038	DMAC1	0		Downregulated in AD
+ENSG00000116560	SFPQ	0		Downregulated in AD
+ENSG00000257727	CNPY2	0		Downregulated in AD
+ENSG00000053900	ANAPC4	0		Downregulated in AD
+ENSG00000155636	RBM45	0		Downregulated in AD
+ENSG00000142920	AZIN2	0		Downregulated in AD
+ENSG00000131368	MRPS25	0		Downregulated in AD
+ENSG00000170633	RNF34	0		Downregulated in AD
+ENSG00000272047	GTF2H5	0		Downregulated in AD
+ENSG00000125877	ITPA	0		Downregulated in AD
+ENSG00000167377	ZNF23	0		Downregulated in AD
+ENSG00000050426	LETMD1	0		Downregulated in AD
+ENSG00000122477	LRRC39	0		Downregulated in AD
+ENSG00000166012	TAF1D	0		Downregulated in AD
+ENSG00000170791	CHCHD7	0		Downregulated in AD
+ENSG00000060688	SNRNP40	0		Downregulated in AD
+ENSG00000213920	MDP1	0		Downregulated in AD
+ENSG00000175193	PARL	0		Downregulated in AD
+ENSG00000130640	TUBGCP2	0		Downregulated in AD
+ENSG00000101391	CDK5RAP1	0		Downregulated in AD
+ENSG00000150636	CCDC102B	0		Downregulated in AD
+ENSG00000249915	PDCD6	0		Downregulated in AD

@@ -1,0 +1,190 @@
+gene_id	gene_symbol	count	studies	regulation
+ENSG00000111087	GLI1	3	Fisher_et_al, Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000121966	CXCR4	3	Fisher_et_al, Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000125733	TRIP10	3	Fisher_et_al, Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000157833	GAREM2	3	Fisher_et_al, Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000175287	PHYHD1	3	Fisher_et_al, Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000188783	PRELP	3	Fisher_et_al, Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000197256	KANK2	3	Fisher_et_al, Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000011426	ANLN	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000012223	LTF	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000018408	WWTR1	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000042062	RIPOR3	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000071054	MAP4K4	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000074219	TEAD2	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000086159	AQP6	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000088836	SLC4A11	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000100227	POLDIP3	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000100906	NFKBIA	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000101096	NFATC2	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000101187	SLCO4A1	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000104415	WISP1	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000105643	ARRDC2	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000105655	ISYNA1	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000111961	SASH1	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000113721	PDGFRB	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000124942	AHNAK	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000131095	GFAP	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000132688	NES	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000133789	SWAP70	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000135736	CCDC102A	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000137076	TLN1	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000142227	EMP3	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000143127	ITGA10	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000143409	MINDY1	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000143772	ITPKB	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000145358	DDIT4L	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000148411	NACC2	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000149451	ADAM33	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000155980	KIF5A	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000157978	LDLRAP1	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000158186	MRAS	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000163820	FYCO1	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000164684	ZNF704	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000165821	SALL2	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000166716	ZNF592	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000166912	MTMR10	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000168209	DDIT4	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000168918	INPP5D	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000170439	METTL7B	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000170759	KIF5B	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000171388	APLN	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000177807	KCNJ10	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000183943	PRKX	2	Fisher_et_al, Marques-Coelho_et_al	Upregulated in AD
+ENSG00000183963	SMTN	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000196154	S100A4	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000196517	SLC6A9	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000196739	COL27A1	2	Fisher_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000198417	MT1F	2	Marques-Coelho_et_al, Panitch_et_al	Upregulated in AD
+ENSG00000021300	PLEKHB1	1	Panitch_et_al	Upregulated in AD
+ENSG00000053702	NRIP2	1	Panitch_et_al	Upregulated in AD
+ENSG00000055070	SZRD1	1	Panitch_et_al	Upregulated in AD
+ENSG00000081913	PHLPP1	1	Panitch_et_al	Upregulated in AD
+ENSG00000087116	ADAMTS2	1	Panitch_et_al	Upregulated in AD
+ENSG00000088881	EBF4	1	Panitch_et_al	Upregulated in AD
+ENSG00000092621	PHGDH	1	Panitch_et_al	Upregulated in AD
+ENSG00000092820	EZR	1	Fisher_et_al	Upregulated in AD
+ENSG00000100146	SOX10	1	Panitch_et_al	Upregulated in AD
+ENSG00000104472	CHRAC1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000105137	SYDE1	1	Panitch_et_al	Upregulated in AD
+ENSG00000105227	PRX	1	Fisher_et_al	Upregulated in AD
+ENSG00000106665	CLIP2	1	Panitch_et_al	Upregulated in AD
+ENSG00000108349	CASC3	1	Panitch_et_al	Upregulated in AD
+ENSG00000108784	NAGLU	1	Panitch_et_al	Upregulated in AD
+ENSG00000111181	SLC6A12	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000111328	CDK2AP1	1	Panitch_et_al	Upregulated in AD
+ENSG00000111602	TIMELESS	1	Panitch_et_al	Upregulated in AD
+ENSG00000112039	FANCE	1	Panitch_et_al	Upregulated in AD
+ENSG00000112851	ERBIN	1	Fisher_et_al	Upregulated in AD
+ENSG00000117115	PADI2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000117266	CDK18	1	Panitch_et_al	Upregulated in AD
+ENSG00000119403	PHF19	1	Panitch_et_al	Upregulated in AD
+ENSG00000123136	DDX39A	1	Panitch_et_al	Upregulated in AD
+ENSG00000124126	PREX1	1	Panitch_et_al	Upregulated in AD
+ENSG00000126803	HSPA2	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000132613	MTSS1L	1	Panitch_et_al	Upregulated in AD
+ENSG00000134802	SLC43A3	1	Panitch_et_al	Upregulated in AD
+ENSG00000135111	TBX3	1	Fisher_et_al	Upregulated in AD
+ENSG00000136205	TNS3	1	Panitch_et_al	Upregulated in AD
+ENSG00000140575	IQGAP1	1	Fisher_et_al	Upregulated in AD
+ENSG00000140931	CMTM3	1	Panitch_et_al	Upregulated in AD
+ENSG00000141858	SAMD1	1	Panitch_et_al	Upregulated in AD
+ENSG00000146966	DENND2A	1	Panitch_et_al	Upregulated in AD
+ENSG00000148204	CRB2	1	Panitch_et_al	Upregulated in AD
+ENSG00000150760	DOCK1	1	Panitch_et_al	Upregulated in AD
+ENSG00000151552	QDPR	1	Panitch_et_al	Upregulated in AD
+ENSG00000159176	CSRP1	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000160685	ZBTB7B	1	Panitch_et_al	Upregulated in AD
+ENSG00000162889	MAPKAPK2	1	Panitch_et_al	Upregulated in AD
+ENSG00000164050	PLXNB1	1	Panitch_et_al	Upregulated in AD
+ENSG00000164850	GPER1	1	Panitch_et_al	Upregulated in AD
+ENSG00000165458	INPPL1	1	Fisher_et_al	Upregulated in AD
+ENSG00000165801	ARHGEF40	1	Panitch_et_al	Upregulated in AD
+ENSG00000165959	CLMN	1	Panitch_et_al	Upregulated in AD
+ENSG00000166508	MCM7	1	Panitch_et_al	Upregulated in AD
+ENSG00000166682	TMPRSS5	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000170275	CRTAP	1	Panitch_et_al	Upregulated in AD
+ENSG00000172935	MRGPRF	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000173801	JUP	1	Panitch_et_al	Upregulated in AD
+ENSG00000177105	RHOG	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000177469	CAVIN1	1	Panitch_et_al	Upregulated in AD
+ENSG00000179241	LDLRAD3	1	Panitch_et_al	Upregulated in AD
+ENSG00000179314	WSCD1	1	Panitch_et_al	Upregulated in AD
+ENSG00000182902	SLC25A18	1	Panitch_et_al	Upregulated in AD
+ENSG00000183196	CHST6	1	Panitch_et_al	Upregulated in AD
+ENSG00000184481	FOXO4	1	Panitch_et_al	Upregulated in AD
+ENSG00000185022	MAFF	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000186834	HEXIM1	1	Panitch_et_al	Upregulated in AD
+ENSG00000197892	KIF13B	1	Panitch_et_al	Upregulated in AD
+ENSG00000198744	MTCO3P12	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000228672	PROB1	1	Panitch_et_al	Upregulated in AD
+ENSG00000236609	ZNF853	1	Panitch_et_al	Upregulated in AD
+ENSG00000256235	SMIM3	1	Panitch_et_al	Upregulated in AD
+ENSG00000260549	MT1L	1	Marques-Coelho_et_al	Upregulated in AD
+ENSG00000165175	MID1IP1	0		Upregulated in AD
+ENSG00000117298	ECE1	0		Upregulated in AD
+ENSG00000196814	MVB12B	0		Upregulated in AD
+ENSG00000140750	ARHGAP17	0		Upregulated in AD
+ENSG00000154783	FGD5	0		Upregulated in AD
+ENSG00000180891	CUEDC1	0		Upregulated in AD
+ENSG00000129250	KIF1C	0		Upregulated in AD
+ENSG00000115468	EFHD1	0		Upregulated in AD
+ENSG00000051128	HOMER3	0		Upregulated in AD
+ENSG00000100139	MICALL1	0		Upregulated in AD
+ENSG00000186635	ARAP1	0		Upregulated in AD
+ENSG00000128917	DLL4	0		Upregulated in AD
+ENSG00000154945	ANKRD40	0		Upregulated in AD
+ENSG00000282034	AC106886.5	0		Upregulated in AD
+ENSG00000189058	APOD	0		Upregulated in AD
+ENSG00000108828	VAT1	0		Upregulated in AD
+ENSG00000079308	TNS1	0		Upregulated in AD
+ENSG00000176463	SLCO3A1	0		Upregulated in AD
+ENSG00000204219	TCEA3	0		Upregulated in AD
+ENSG00000072864	NDE1	0		Upregulated in AD
+ENSG00000116786	PLEKHM2	0		Upregulated in AD
+ENSG00000140545	MFGE8	0		Upregulated in AD
+ENSG00000131899	LLGL1	0		Upregulated in AD
+ENSG00000183111	ARHGEF37	0		Upregulated in AD
+ENSG00000148841	ITPRIP	0		Upregulated in AD
+ENSG00000020577	SAMD4A	0		Upregulated in AD
+ENSG00000149564	ESAM	0		Upregulated in AD
+ENSG00000147421	HMBOX1	0		Upregulated in AD
+ENSG00000167693	NXN	0		Upregulated in AD
+ENSG00000170276	HSPB2	0		Upregulated in AD
+ENSG00000133069	TMCC2	0		Upregulated in AD
+ENSG00000153048	CARHSP1	0		Upregulated in AD
+ENSG00000128564	VGF	3	Fisher_et_al, Marques-Coelho_et_al, Panitch_et_al	Downregulated in AD
+ENSG00000147571	CRH	3	Fisher_et_al, Marques-Coelho_et_al, Panitch_et_al	Downregulated in AD
+ENSG00000170324	FRMPD2	3	Fisher_et_al, Marques-Coelho_et_al, Panitch_et_al	Downregulated in AD
+ENSG00000105419	MEIS3	2	Fisher_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000115598	IL1RL2	2	Marques-Coelho_et_al, Panitch_et_al	Downregulated in AD
+ENSG00000166111	SVOP	2	Fisher_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000184307	ZDHHC23	2	Marques-Coelho_et_al, Panitch_et_al	Downregulated in AD
+ENSG00000197044	ZNF441	2	Fisher_et_al, Panitch_et_al	Downregulated in AD
+ENSG00000198883	PNMA5	2	Fisher_et_al, Marques-Coelho_et_al	Downregulated in AD
+ENSG00000007908	SELE	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000021645	NRXN3	1	Panitch_et_al	Downregulated in AD
+ENSG00000079841	RIMS1	1	Panitch_et_al	Downregulated in AD
+ENSG00000100600	LGMN	1	Fisher_et_al	Downregulated in AD
+ENSG00000113100	CDH9	1	Panitch_et_al	Downregulated in AD
+ENSG00000122512	PMS2	1	Panitch_et_al	Downregulated in AD
+ENSG00000125850	OVOL2	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000130368	MAS1	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000134759	ELP2	1	Panitch_et_al	Downregulated in AD
+ENSG00000152034	MCHR2	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000163673	DCLK3	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000166669	ATF7IP2	1	Panitch_et_al	Downregulated in AD
+ENSG00000169064	ZBBX	1	Panitch_et_al	Downregulated in AD
+ENSG00000171476	HOPX	1	Panitch_et_al	Downregulated in AD
+ENSG00000176401	EID2B	1	Panitch_et_al	Downregulated in AD
+ENSG00000178031	ADAMTSL1	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000179029	TMEM107	1	Panitch_et_al	Downregulated in AD
+ENSG00000183090	FREM3	1	Marques-Coelho_et_al	Downregulated in AD
+ENSG00000185414	MRPL30	1	Panitch_et_al	Downregulated in AD
+ENSG00000104112	SCG3	0		Downregulated in AD
+ENSG00000101746	NOL4	0		Downregulated in AD
+ENSG00000186094	AGBL4	0		Downregulated in AD
+ENSG00000170153	RNF150	0		Downregulated in AD
+ENSG00000160886	LY6K	0		Downregulated in AD
+ENSG00000141655	TNFRSF11A	0		Downregulated in AD
+ENSG00000144057	ST6GAL2	0		Downregulated in AD
